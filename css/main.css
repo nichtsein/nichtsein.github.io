@@ -1153,7 +1153,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f2b6f5;
+  background: #1c8801;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2273,4 +2273,8 @@ embed {
   transition-delay: 0s;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
+}
+/* 自定义的文章摘要图片样式 */
+img.img-topic {
+  width: 100%;
 }
