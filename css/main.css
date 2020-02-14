@@ -159,7 +159,7 @@ body {
   color: #555;
   font-family: 'Noto Serif TC', "Noto Serif TC", sans-serif;
   font-size: 1.112em;
-  line-height: 2;
+  line-height: 1.5;
 }
 @media (max-width: 991px) {
   body {
@@ -1153,7 +1153,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #3d7eff;
+  background: #b1ff55;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
