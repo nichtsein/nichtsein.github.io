@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2020-05-29T00:41:49.166Z</updated>
+  <updated>2020-05-29T01:34:38.937Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>【浮生一紀】悲喜交加的故事</title>
     <link href="http://nichtsein.github.io/2020/05/29/%E3%80%90%E6%B5%AE%E7%94%9F%E4%B8%80%E7%B4%80%E3%80%91%E6%82%B2%E5%96%9C%E4%BA%A4%E5%8A%A0%E7%9A%84%E6%95%85%E4%BA%8B/"/>
     <id>http://nichtsein.github.io/2020/05/29/%E3%80%90%E6%B5%AE%E7%94%9F%E4%B8%80%E7%B4%80%E3%80%91%E6%82%B2%E5%96%9C%E4%BA%A4%E5%8A%A0%E7%9A%84%E6%95%85%E4%BA%8B/</id>
-    <published>2020-05-29T00:32:33.233Z</published>
-    <updated>2020-05-29T00:41:49.166Z</updated>
+    <published>2020-05-29T01:00:58.000Z</published>
+    <updated>2020-05-29T01:34:38.937Z</updated>
     
     <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=710873160&bvid=BV1vQ4y1P7ni&cid=196205833&page=1"&high_quality=1 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>]]></content>
     
@@ -34,6 +34,8 @@
     
     </summary>
     
+    
+      <category term="雜錄" scheme="http://nichtsein.github.io/categories/%E9%9B%9C%E9%8C%84/"/>
     
     
   </entry>
