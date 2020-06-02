@@ -161,26 +161,6 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
-              datetime="2020-06-02T10:54:34+08:00"
-              content="2020-06-02">
-          06-02
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/06/02/%E5%BE%B7%E6%84%8F%E5%BF%97%E6%84%8F%E8%AD%98%E5%BD%A2%E6%85%8B/" itemprop="url">
-            <span itemprop="name">德意志意識形態</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
               datetime="2020-06-02T00:19:05+08:00"
               content="2020-06-02">
           06-02
@@ -374,7 +354,7 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "本站存在 "+dnum+" 天 ";
+        document.getElementById("timeDate").innerHTML = "本站現實性存在 "+dnum+" 天 ";
         document.getElementById("times").innerHTML = hnum + " 小時 " + mnum + " 分 " + snum + " 秒";
     }
 setInterval("createtime()",250);
