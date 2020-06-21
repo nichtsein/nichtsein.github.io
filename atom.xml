@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2020-06-21T02:33:14.682Z</updated>
+  <updated>2020-06-21T03:14:33.414Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>北風嘯嘯，雪花飄飄</title>
+    <title>夏至</title>
+    <link href="http://nichtsein.github.io/2020/06/21/%E5%A4%8F%E8%87%B3/"/>
+    <id>http://nichtsein.github.io/2020/06/21/%E5%A4%8F%E8%87%B3/</id>
+    <published>2020-06-21T03:12:44.000Z</published>
+    <updated>2020-06-21T03:14:33.414Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=86 src="//music.163.com/outchain/player?type=2&id=101126&auto=0&height=66"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=530 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1011
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>雪花飄飄，北風嘯嘯</title>
     <link href="http://nichtsein.github.io/2020/06/21/%E5%8C%97%E9%A2%A8%E5%98%AF%E5%98%AF%EF%BC%8C%E9%9B%AA%E8%8A%B1%E9%A3%84%E9%A3%84/"/>
     <id>http://nichtsein.github.io/2020/06/21/%E5%8C%97%E9%A2%A8%E5%98%AF%E5%98%AF%EF%BC%8C%E9%9B%AA%E8%8A%B1%E9%A3%84%E9%A3%84/</id>
     <published>2020-06-21T02:32:21.000Z</published>
-    <updated>2020-06-21T02:33:14.682Z</updated>
+    <updated>2020-06-21T02:36:11.356Z</updated>
     
     <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=456057153&bvid=BV1a5411W7Zp&cid=203455992&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>]]></content>
     
@@ -423,27 +445,6 @@
     
     
       <category term="Speeches" scheme="http://nichtsein.github.io/categories/Speeches/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>千日紀事</title>
-    <link href="http://nichtsein.github.io/2020/05/30/%E5%8D%83%E6%97%A5%E7%B4%80%E4%BA%8B/"/>
-    <id>http://nichtsein.github.io/2020/05/30/%E5%8D%83%E6%97%A5%E7%B4%80%E4%BA%8B/</id>
-    <published>2020-05-30T09:45:52.000Z</published>
-    <updated>2020-06-02T05:24:22.712Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/05/31/aZdrF6ePhMGyv3Y.jpg" alt="img"></p><a id="more"></a><p>庚子年閏四月初八日。</p><p>晴空萬里</p><p>自2017-09-03到2020-05-30，已然走入大學達千日。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/05/31/aZdrF6ePhMGyv3Y.jpg&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="庚子紀實" scheme="http://nichtsein.github.io/categories/%E5%BA%9A%E5%AD%90%E7%B4%80%E5%AF%A6/"/>
     
     
   </entry>
