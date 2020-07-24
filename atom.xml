@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2020-07-23T14:08:09.167Z</updated>
+  <updated>2020-07-24T10:57:41.225Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>he Bayeux Tapestry - Seven Ages of Britain</title>
+    <link href="http://nichtsein.github.io/2020/07/24/the-bayeux-tapestry/"/>
+    <id>http://nichtsein.github.io/2020/07/24/the-bayeux-tapestry/</id>
+    <published>2020-07-24T10:57:11.000Z</published>
+    <updated>2020-07-24T10:57:41.225Z</updated>
+    
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/F8OPQ_28mdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/F8OPQ_28mdo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-m
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>無題</title>
@@ -440,32 +462,6 @@
     
     
       <category term="滌生集摘" scheme="http://nichtsein.github.io/categories/%E6%BB%8C%E7%94%9F%E9%9B%86%E6%91%98/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>青春的微笑</title>
-    <link href="http://nichtsein.github.io/2020/07/06/%E9%9D%92%E6%98%A5%E7%9A%84%E5%BE%AE%E7%AC%91/"/>
-    <id>http://nichtsein.github.io/2020/07/06/%E9%9D%92%E6%98%A5%E7%9A%84%E5%BE%AE%E7%AC%91/</id>
-    <published>2020-07-06T15:49:49.000Z</published>
-    <updated>2020-07-06T23:42:58.016Z</updated>
-    
-    <content type="html"><![CDATA[<img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/00706234351.jpg"  /><center>柳繁荊茂撥得開，方顯手段</center>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/00706234351.jpg&quot;  /&gt;
-
-&lt;center&gt;柳繁荊茂撥得開，方顯手段&lt;/center&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="庚子紀實" scheme="http://nichtsein.github.io/categories/%E5%BA%9A%E5%AD%90%E7%B4%80%E5%AF%A6/"/>
     
     
   </entry>
