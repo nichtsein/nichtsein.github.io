@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"nichtsein.github.io","root":"/","scheme":"Muse","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="The  →\rightarrow→ rules: Modus Ponens and Modus Tollens MP:  $$x→y,  x : y$$ MT: $$x→y, \neg y: \neg x$$   The ∧\wedge∧ rules: Conjunction and Simplification Conj:   $$x, y : x \wedge y$$ Simp:  $$x">
+  <meta name="description" content="The  $\rightarrow$ rules: Modus Ponens and Modus Tollens MP:   \begin{align*} x→y,  x : y \end{align*}MT:   \begin{align*} x→y, \neg y: \neg x \end{align*}&amp;emsp; The $\wedge$ rules: Conjunction and Si">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Eight Implication Rules in SL">
 <meta property="og:url" content="http://nichtsein.github.io/2021/09/13/eight-rules-of-inference/index.html">
 <meta property="og:site_name" content="臥東懷西自由人">
-<meta property="og:description" content="The  →\rightarrow→ rules: Modus Ponens and Modus Tollens MP:  $$x→y,  x : y$$ MT: $$x→y, \neg y: \neg x$$   The ∧\wedge∧ rules: Conjunction and Simplification Conj:   $$x, y : x \wedge y$$ Simp:  $$x">
+<meta property="og:description" content="The  $\rightarrow$ rules: Modus Ponens and Modus Tollens MP:   \begin{align*} x→y,  x : y \end{align*}MT:   \begin{align*} x→y, \neg y: \neg x \end{align*}&amp;emsp; The $\wedge$ rules: Conjunction and Si">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-09-13T13:26:57.000Z">
-<meta property="article:modified_time" content="2021-09-14T15:44:03.302Z">
+<meta property="article:modified_time" content="2021-09-14T16:17:42.080Z">
 <meta property="article:author" content="崑崙">
 <meta name="twitter:card" content="summary">
 
@@ -188,41 +188,71 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>The  <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> rules: Modus Ponens and Modus Tollens</p>
-<p>MP:  $$x→y,  x : y$$</p>
-<p>MT: $$x→y, \neg y: \neg x$$</p>
-<p> </p>
-<p>The <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∧</mo></mrow><annotation encoding="application/x-tex">\wedge</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∧</span></span></span></span> rules: Conjunction and Simplification</p>
-<p>Conj:   $$x, y : x \wedge y$$</p>
-<p>Simp:  $$x \wedge  y: x$$
-$x \wedge y: y $</p>
-<p> </p>
-<p>The <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∨</mo></mrow><annotation encoding="application/x-tex">\vee</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∨</span></span></span></span> rules: Addition and Disjunctive Syllogism</p>
-<p>Add:  $$x : x \vee y$$</p>
-<p>DS:   $$x \vee y , \neg x : y$$
-$ x \vee y , \neg y : x$</p>
-<p> </p>
-<p>The double <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> rules: Hypothetical Syllogism and Constructive Dilemma</p>
-<p>HS: $$x→y, y→z : x→z$$</p>
-<p>CD: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>w</mi><mo>∨</mo><mi>x</mi><mo separator="true">,</mo><mi>w</mi><mo>→</mo><mi>y</mi><mo separator="true">,</mo><mi>x</mi><mo>→</mo><mi>z</mi><mo>:</mo><mi>y</mi><mo>∨</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">w \vee x, w→y, x→z : y \vee z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span></span></span></span></p>
-<p><strong>The double-colon symbol <strong style="color:red;">::</strong></strong>, when placed between two statements, this symbol means that the two statements are equivalent — that is, you can substitute one for the other whenever needed.</p>
-<h4 id="double-negation-dn"><a class="markdownIt-Anchor" href="#double-negation-dn"></a> Double Negation (<strong>DN</strong>)</h4>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>:</mo><mo>:</mo><mi mathvariant="normal">¬</mi><mi mathvariant="normal">¬</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">x ::  \neg \neg x
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord">¬</span><span class="mord mathdefault">x</span></span></span></span></span></p>
-<h4 id="contraposition-contra"><a class="markdownIt-Anchor" href="#contraposition-contra"></a> Contraposition (<strong>Contra</strong>)</h4>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>→</mo><mi>y</mi><mo>:</mo><mo>:</mo><mi mathvariant="normal">¬</mi><mi>y</mi><mo>→</mo><mi mathvariant="normal">¬</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">x \rightarrow y :: \neg y \rightarrow \neg x
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">x</span></span></span></span></span></p>
-<h4 id="implication-impl"><a class="markdownIt-Anchor" href="#implication-impl"></a> Implication (<strong>Impl</strong>)</h4>
-<p>When you know that the statement x → y is true, you know that either x is false (that is, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\neg x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">x</span></span></span></span> is true) or that y is true. In other words, you know that the statement <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>x</mi><mo>∨</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">\neg  x \vee y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span> is true.</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>→</mo><mi>y</mi><mo>:</mo><mo>:</mo><mi mathvariant="normal">¬</mi><mi>x</mi><mo>∨</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x \rightarrow y :: \neg x \vee y
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span></span></p>
+        <p>The  $\rightarrow$ rules: Modus Ponens and Modus Tollens</p>
+<p>MP: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x→y,  x : y
+\end{align*}</script><p>MT: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x→y, \neg y: \neg x
+\end{align*}</script><p>&emsp;</p>
+<p>The $\wedge$ rules: Conjunction and Simplification</p>
+<p>Conj: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x, y : x \wedge y
+\end{align*}</script><p>Simp: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x \wedge  y: x
+\\
+x \wedge y: y
+\end{align*}</script><p>&emsp;</p>
+<p>The $\vee$ rules: Addition and Disjunctive Syllogism</p>
+<p>Add: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x : x \vee y
+\end{align*}</script><p>DS: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x \vee y , \neg x : y
+
+\\
+x \vee y , \neg y : x
+
+\end{align*}</script><p> &emsp;</p>
+<p>The double $\rightarrow$ rules: Hypothetical Syllogism and Constructive Dilemma</p>
+<p>HS: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x→y, y→z : x→z
+\end{align*}</script><p>CD: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+w \vee x, w→y, x→z : y \vee z
+\end{align*}</script><p><strong>The double-colon symbol <strong style="color:red;">::</strong></strong>, when placed between two statements, this symbol means that the two statements are equivalent — that is, you can substitute one for the other whenever needed.</p>
+<h4 id="Double-Negation-DN"><a href="#Double-Negation-DN" class="headerlink" title="Double Negation (DN)"></a>Double Negation (<strong>DN</strong>)</h4><script type="math/tex; mode=display">
+\begin{align*}
+x ::  \neg \neg x
+
+\end{align*}</script><h4 id="Contraposition-Contra"><a href="#Contraposition-Contra" class="headerlink" title="Contraposition (Contra)"></a>Contraposition (<strong>Contra</strong>)</h4><script type="math/tex; mode=display">
+\begin{align*}
+x \rightarrow y :: \neg y \rightarrow \neg x
+\end{align*}</script><h4 id="Implication-Impl"><a href="#Implication-Impl" class="headerlink" title="Implication (Impl)"></a>Implication (<strong>Impl</strong>)</h4><p>When you know that the statement x → y is true, you know that either x is false (that is, $\neg x$ is true) or that y is true. In other words, you know that the statement $\neg  x \vee y$ is true.</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x \rightarrow y :: \neg x \vee y
+\end{align*}</script><div class="table-container">
 <table>
 <thead>
 <tr>
 <th style="text-align:center">x</th>
 <th style="text-align:center">y</th>
-<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>→</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x \rightarrow y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span></th>
-<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>x</mi><mo>∨</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">\neg x \vee y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span></th>
+<th style="text-align:center">$x \rightarrow y$</th>
+<th style="text-align:center">$\neg x \vee y$</th>
 </tr>
 </thead>
 <tbody>
@@ -252,193 +282,178 @@ $ x \vee y , \neg y : x$</p>
 </tr>
 </tbody>
 </table>
-<p>Example:</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi><mo>→</mo><mi>Q</mi><mo separator="true">,</mo><mi>P</mi><mo>∨</mo><mi>R</mi><mo>:</mo><mi>Q</mi><mo>∨</mo><mi>R</mi></mrow><annotation encoding="application/x-tex">P \rightarrow Q, P \vee R: Q \vee R
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span></span></p>
-<p>Proof:</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
-&amp;1 \quad P \ri…'>\begin{align*}
-&amp;1 \quad P \rightarrow Q \tag P
+</div>
+<p>Example: </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+P \rightarrow Q, P \vee R: Q \vee R
+\end{align*}</script><p>Proof:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&1 \quad P \rightarrow Q \tag P
 
 \\
-&amp;2 \quad P \vee R \tag P
+&2 \quad P \vee R \tag P
 
 \\
-&amp;3 \quad \neg P \vee Q  \tag{1 Impl}
+&3 \quad \neg P \vee Q  \tag{1 Impl}
 
 \\
-&amp;4 \quad \neg Q \rightarrow \neg P \tag{1 Contra}
+&4 \quad \neg Q \rightarrow \neg P \tag{1 Contra}
 
 \\
-&amp;5 \quad \neg P \rightarrow R \tag{2 Impl}
+&5 \quad \neg P \rightarrow R \tag{2 Impl}
 
 \\
-&amp;6 \quad \neg R \rightarrow P \tag{2 Contra}
+&6 \quad \neg R \rightarrow P \tag{2 Contra}
 
 \\
-&amp;7 \quad \neg Q \rightarrow R \tag{4,5 HS}
+&7 \quad \neg Q \rightarrow R \tag{4,5 HS}
 
 \\
-&amp;8 \quad Q \vee R \tag{7 Impl}
+&8 \quad Q \vee R \tag{7 Impl}
 
-\end{align*}
-</p>
-<h4 id="exportation-exp"><a class="markdownIt-Anchor" href="#exportation-exp"></a> Exportation (Exp)</h4>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>→</mo><mo stretchy="false">(</mo><mi>y</mi><mo>→</mo><mi>z</mi><mo stretchy="false">)</mo><mo>:</mo><mo>:</mo><mo stretchy="false">(</mo><mi>x</mi><mo>∧</mo><mi>y</mi><mo stretchy="false">)</mo><mo>→</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">x\rightarrow (y\rightarrow z)::(x\wedge y)\rightarrow z
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span></span></span></span></span></p>
-<p>Example:</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>P</mi><mo>∧</mo><mi>Q</mi><mo stretchy="false">)</mo><mo>→</mo><mi>R</mi><mo separator="true">,</mo><mi mathvariant="normal">¬</mi><mi>R</mi><mo>∨</mo><mi>S</mi><mo separator="true">,</mo><mi>P</mi><mo>:</mo><mi>Q</mi><mo>→</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">(P\wedge Q)\rightarrow R,\neg R \vee S,P:Q \rightarrow S
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">Q</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span></span></p>
-<p>Proof:</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
-&amp;1 \quad  (P\w…'>\begin{align*}
-&amp;1 \quad  (P\wedge Q)\rightarrow R \tag P
+\end{align*}</script><h4 id="Exportation-Exp"><a href="#Exportation-Exp" class="headerlink" title="Exportation (Exp)"></a>Exportation (Exp)</h4><script type="math/tex; mode=display">
+\begin{align*}
+x\rightarrow (y\rightarrow z)::(x\wedge y)\rightarrow z
+\end{align*}</script><p>Example:</p>
+<script type="math/tex; mode=display">
+(P\wedge Q)\rightarrow R,\neg R \vee S,P:Q \rightarrow S</script><p>Proof:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&1 \quad  (P\wedge Q)\rightarrow R \tag P
 
 \\
-&amp;2 \quad  \neg R \vee S \tag P
+&2 \quad  \neg R \vee S \tag P
 
 \\
-&amp;3 \quad  p  \tag{1 Impl}
+&3 \quad  p  \tag{1 Impl}
 
 \\
-&amp;4 \quad  P \rightarrow (Q \rightarrow R) \tag{1 Exp}
+&4 \quad  P \rightarrow (Q \rightarrow R) \tag{1 Exp}
 
 \\
-&amp;5\quad  Q \rightarrow R \tag{3,4 MP}
+&5\quad  Q \rightarrow R \tag{3,4 MP}
 
 \\
-&amp;6\quad  R \rightarrow S \tag{2  Impl}
+&6\quad  R \rightarrow S \tag{2  Impl}
 
 \\
-&amp;7\quad  Q \rightarrow S \tag{5,6 HS}
+&7\quad  Q \rightarrow S \tag{5,6 HS}
 
-\end{align*}
-</p>
-<h4 id="commutation-comm"><a class="markdownIt-Anchor" href="#commutation-comm"></a> Commutation (Comm)</h4>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
-
-x \wedge y ::…'>\begin{align*}
+\end{align*}</script><h4 id="Commutation-Comm"><a href="#Commutation-Comm" class="headerlink" title="Commutation (Comm)"></a>Commutation (Comm)</h4><script type="math/tex; mode=display">
+\begin{align*}
 
 x \wedge y ::y \wedge x
 \\
 
 x \vee y::y \vee x
 
-\end{align*}
-</p>
-<p>Example:</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi><mo>∧</mo><mo stretchy="false">(</mo><mi mathvariant="normal">¬</mi><mi>Q</mi><mo>→</mo><mi>R</mi><mo stretchy="false">)</mo><mo>:</mo><mo stretchy="false">(</mo><mi>R</mi><mo>∨</mo><mi>Q</mi><mo stretchy="false">)</mo><mo>∧</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">P \wedge ( \neg Q \rightarrow R):(R \vee Q) \wedge P
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">¬</span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">Q</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span></span></p>
-<p>Proof:</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+\end{align*}</script><p>Example:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+P \wedge ( \neg Q \rightarrow R):(R \vee Q) \wedge P
+\end{align*}</script><p>Proof:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
 
-&amp;1 \quad  P \…'>\begin{align*}
-
-&amp;1 \quad  P \wedge ( \neg Q \rightarrow R) \tag P
+&1 \quad  P \wedge ( \neg Q \rightarrow R) \tag P
 
 \\
-&amp;2 \quad  P \tag {1 Simp}
+&2 \quad  P \tag {1 Simp}
 
 \\
-&amp;3 \quad  \neg Q \rightarrow R  \tag{1 Simp}
+&3 \quad  \neg Q \rightarrow R  \tag{1 Simp}
 
 \\
-&amp;4 \quad  Q \vee R \tag{3 Impl}
+&4 \quad  Q \vee R \tag{3 Impl}
 
 \\
-&amp;5\quad  R \vee Q \tag{4 Comm}
+&5\quad  R \vee Q \tag{4 Comm}
 
 \\
-&amp;6\quad  (R \vee Q ) \wedge P \tag{5 Conj}
+&6\quad  (R \vee Q ) \wedge P \tag{5 Conj}
 
-\end{align*}
-</p>
-<p> </p>
-<h4 id="association-assoc"><a class="markdownIt-Anchor" href="#association-assoc"></a> Association (Assoc)</h4>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>∧</mo><mi>y</mi><mo stretchy="false">)</mo><mo>∧</mo><mi>z</mi><mo>:</mo><mo>:</mo><mi>x</mi><mo>∧</mo><mo stretchy="false">(</mo><mi>y</mi><mo>∧</mo><mi>z</mi><mo stretchy="false">)</mo><mspace linebreak="newline"></mspace><mo stretchy="false">(</mo><mi>x</mi><mo>∨</mo><mi>y</mi><mo stretchy="false">)</mo><mo>∨</mo><mi>z</mi><mo>:</mo><mo>:</mo><mi>x</mi><mo>∨</mo><mo stretchy="false">(</mo><mi>y</mi><mo>∨</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(x \wedge y ) \wedge z:: x \wedge ( y\wedge z)
+\end{align*}</script><p>&emsp;</p>
+<h4 id="Association-Assoc"><a href="#Association-Assoc" class="headerlink" title="Association (Assoc)"></a>Association (Assoc)</h4><script type="math/tex; mode=display">
+\begin{align*}
+
+(x \wedge y ) \wedge z:: x \wedge ( y\wedge z)
 
 \\
 (x \vee y )\vee z:: x \vee ( y\vee z)
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span></span></span></span></p>
-<p>Example:</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>P</mi><mo>→</mo><mi>Q</mi><mo stretchy="false">)</mo><mo>∨</mo><mi>R</mi><mo>:</mo><mi>Q</mi><mo>∨</mo><mo stretchy="false">(</mo><mi>R</mi><mo>∨</mo><mi mathvariant="normal">¬</mi><mi>P</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(P \rightarrow Q) \vee R : Q\vee (R \vee \neg P)
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">Q</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mclose">)</span></span></span></span></span></p>
-<p>Proof:</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&amp;1 \quad  (P …'>\begin{align*}
+\end{align*}</script><p>Example:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+(P \rightarrow Q) \vee R : Q\vee (R \vee \neg P)
+\end{align*}</script><p>Proof:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
 
-&amp;1 \quad  (P \rightarrow Q)  \tag P
-
-\\
-&amp;2 \quad  ( \neg  P \vee Q) \vee R  \tag { 1 Impl }
+&1 \quad  (P \rightarrow Q)  \tag P
 
 \\
-&amp;3 \quad (Q \vee \neg P) \vee R   \tag{ 2 Comm }
+&2 \quad  ( \neg  P \vee Q) \vee R  \tag { 1 Impl }
 
 \\
-&amp;4 \quad  Q \vee ( \neg P \vee R)  \tag{ 3 Assoc }
+&3 \quad (Q \vee \neg P) \vee R   \tag{ 2 Comm }
 
 \\
-&amp;5\quad Q \vee (R \vee \neg  P)  \tag{ 4 Comm }
+&4 \quad  Q \vee ( \neg P \vee R)  \tag{ 3 Assoc }
+
+\\
+&5\quad Q \vee (R \vee \neg  P)  \tag{ 4 Comm }
 
 
-\end{align*}
-</p>
-<p> </p>
-<h4 id="distribution-dist"><a class="markdownIt-Anchor" href="#distribution-dist"></a> Distribution (Dist)</h4>
-<p>I have a pet <em><strong>and</strong></em> it’s <em><strong>either</strong></em> a cat <em><strong>or</strong></em> a dog. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>∧</mo><mo stretchy="false">(</mo><mi>y</mi><mo>∨</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">x \wedge ( y \vee z)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span></span></span>
-<em><strong>Either</strong></em> I have a pet <em><strong>and</strong></em> it’s a cat <em><strong>or</strong></em> I have a pet <em><strong>and</strong></em> it’s a dog. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>∧</mo><mi>y</mi><mo stretchy="false">)</mo><mo>∨</mo><mo stretchy="false">(</mo><mi>x</mi><mo>∧</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(x \wedge y) \vee( x \wedge z)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span></span></span></p>
-<p>I have to take <em><strong>either</strong></em> organic chemistry <em><strong>or both</strong></em> botany <em><strong>and</strong></em> zoology. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>∨</mo><mo stretchy="false">(</mo><mi>y</mi><mo>∧</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">x \vee ( y \wedge z)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span></span></span>
-I have to take <em><strong>either</strong></em> organic chemistry <em><strong>or</strong></em> botany, <em><strong>and</strong></em> I also have to take either organic chemistry <em><strong>or</strong></em> zoology. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>∨</mo><mi>y</mi><mo stretchy="false">)</mo><mo>∧</mo><mo stretchy="false">(</mo><mi>x</mi><mo>∨</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(x \vee y) \wedge( x \vee z)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span></span></span></p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>∧</mo><mo stretchy="false">(</mo><mi>y</mi><mo>∨</mo><mi>z</mi><mo stretchy="false">)</mo><mo>:</mo><mo>:</mo><mo stretchy="false">(</mo><mi>x</mi><mo>∧</mo><mi>y</mi><mo stretchy="false">)</mo><mo>∨</mo><mo stretchy="false">(</mo><mi>x</mi><mo>∧</mo><mi>z</mi><mo stretchy="false">)</mo><mspace linebreak="newline"></mspace><mi>x</mi><mo>∨</mo><mo stretchy="false">(</mo><mi>y</mi><mo>∧</mo><mi>z</mi><mo stretchy="false">)</mo><mo>:</mo><mo>:</mo><mo stretchy="false">(</mo><mi>x</mi><mo>∨</mo><mi>y</mi><mo stretchy="false">)</mo><mo>∧</mo><mo stretchy="false">(</mo><mi>x</mi><mo>∨</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">x \wedge ( y \vee z) :: (x \wedge y) \vee( x \wedge z)
+\end{align*}</script><p>&emsp;</p>
+<h4 id="Distribution-Dist"><a href="#Distribution-Dist" class="headerlink" title="Distribution (Dist)"></a>Distribution (Dist)</h4><p>I have a pet <strong><em>and</em></strong> it’s <strong><em>either</em></strong> a cat <strong><em>or</em></strong> a dog. $x \wedge ( y \vee z)$<br><strong><em>Either</em></strong> I have a pet <strong><em>and</em></strong> it’s a cat <strong><em>or</em></strong> I have a pet <strong><em>and</em></strong> it’s a dog. $(x \wedge y) \vee( x \wedge z)$</p>
+<p>I have to take <strong><em>either</em></strong> organic chemistry <strong><em>or both</em></strong> botany <strong><em>and</em></strong> zoology. $x \vee ( y \wedge z)$<br>I have to take <strong><em>either</em></strong> organic chemistry <strong><em>or</em></strong> botany, <strong><em>and</em></strong> I also have to take either organic chemistry <strong><em>or</em></strong> zoology. $(x \vee y) \wedge( x \vee z)$</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+
+x \wedge ( y \vee z) :: (x \wedge y) \vee( x \wedge z)
 
 \\
 x \vee ( y \wedge z) :: (x \vee y) \wedge( x \vee z)
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mclose">)</span></span></span></span></span></p>
-<p> </p>
+
+\end{align*}</script><p>&emsp;</p>
 <p>Example:</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>Q</mi><mo>∨</mo><mi>R</mi><mo separator="true">,</mo><mi mathvariant="normal">¬</mi><mo stretchy="false">(</mo><mi>P</mi><mo>∧</mo><mi>Q</mi><mo stretchy="false">)</mo><mo separator="true">,</mo><mi>P</mi><mo>:</mo><mi>R</mi></mrow><annotation encoding="application/x-tex">Q \vee R, \neg ( P \wedge Q), P: R
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">¬</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">Q</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span></span></p>
-<p>Proof:</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+<script type="math/tex; mode=display">
+\begin{align*}
+Q \vee R, \neg ( P \wedge Q), P: R
+\end{align*}</script><p>Proof:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
 
-&amp;1 \quad  Q \…'>\begin{align*}
-
-&amp;1 \quad  Q \vee R  \tag P
-
-\\
-&amp;2 \quad  \neg ( P \wedge Q)  \tag { P }
+&1 \quad  Q \vee R  \tag P
 
 \\
-&amp;3 \quad   P \tag{ P }
+&2 \quad  \neg ( P \wedge Q)  \tag { P }
 
 \\
-&amp;4 \quad  P \wedge (Q \vee R )  \tag{ 1,3 Conj }
+&3 \quad   P \tag{ P }
 
 \\
-&amp;5\quad (P \wedge Q)\vee ( P \wedge R)   \tag{  4 Dist }
+&4 \quad  P \wedge (Q \vee R )  \tag{ 1,3 Conj }
 
 \\
-&amp;6\quad  P \wedge R  \tag{ 2,5 DS }
+&5\quad (P \wedge Q)\vee ( P \wedge R)   \tag{  4 Dist }
 
 \\
-&amp;7\quad  R  \tag{6 Simp}
+&6\quad  P \wedge R  \tag{ 2,5 DS }
 
-\end{align*}
-</p>
-<h4 id="demorgans-theorem-dem"><a class="markdownIt-Anchor" href="#demorgans-theorem-dem"></a> DeMorgan’s Theorem (DeM)</h4>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+\\
+&7\quad  R  \tag{6 Simp}
 
-\neg (x\wedge…'>\begin{align*}
+\end{align*}</script><h4 id="DeMorgan’s-Theorem-DeM"><a href="#DeMorgan’s-Theorem-DeM" class="headerlink" title="DeMorgan’s Theorem (DeM)"></a>DeMorgan’s Theorem (DeM)</h4><script type="math/tex; mode=display">
+\begin{align*}
 
 \neg (x\wedge y) :: \neg x \vee \neg y
 \\
 \neg (x\vee y) :: \neg x \wedge \neg y
 
-\end{align*}
-</p>
-
+\end{align*}</script>
     </div>
 
     
@@ -516,7 +531,7 @@ x \vee ( y \wedge z) :: (x \vee y) \wedge( x \vee z)
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#double-negation-dn"><span class="nav-number">1.</span> <span class="nav-text"> Double Negation (DN)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#contraposition-contra"><span class="nav-number">2.</span> <span class="nav-text"> Contraposition (Contra)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#implication-impl"><span class="nav-number">3.</span> <span class="nav-text"> Implication (Impl)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#exportation-exp"><span class="nav-number">4.</span> <span class="nav-text"> Exportation (Exp)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#commutation-comm"><span class="nav-number">5.</span> <span class="nav-text"> Commutation (Comm)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#association-assoc"><span class="nav-number">6.</span> <span class="nav-text"> Association (Assoc)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#distribution-dist"><span class="nav-number">7.</span> <span class="nav-text"> Distribution (Dist)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#demorgans-theorem-dem"><span class="nav-number">8.</span> <span class="nav-text"> DeMorgan’s Theorem (DeM)</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Double-Negation-DN"><span class="nav-number">1.</span> <span class="nav-text">Double Negation (DN)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Contraposition-Contra"><span class="nav-number">2.</span> <span class="nav-text">Contraposition (Contra)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Implication-Impl"><span class="nav-number">3.</span> <span class="nav-text">Implication (Impl)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Exportation-Exp"><span class="nav-number">4.</span> <span class="nav-text">Exportation (Exp)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Commutation-Comm"><span class="nav-number">5.</span> <span class="nav-text">Commutation (Comm)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Association-Assoc"><span class="nav-number">6.</span> <span class="nav-text">Association (Assoc)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Distribution-Dist"><span class="nav-number">7.</span> <span class="nav-text">Distribution (Dist)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#DeMorgan’s-Theorem-DeM"><span class="nav-number">8.</span> <span class="nav-text">DeMorgan’s Theorem (DeM)</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
