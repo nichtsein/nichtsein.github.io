@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-09-13T16:21:22.480Z</updated>
+  <updated>2021-09-14T06:52:50.699Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://nichtsein.github.io/2021/09/13/eight-rules-of-inference/"/>
     <id>http://nichtsein.github.io/2021/09/13/eight-rules-of-inference/</id>
     <published>2021-09-13T13:26:57.000Z</published>
-    <updated>2021-09-13T16:21:22.480Z</updated>
+    <updated>2021-09-14T06:52:50.699Z</updated>
     
-    <content type="html"><![CDATA[<p>The  $\rightarrow$ rules: Modus Ponens and Modus Tollens</p><p>MP:  $x→y,  x : y$​</p><p>MT: $x→y, \neg y: \neg x$</p><p>&emsp;</p><p>The $\and$ rules: Conjunction and Simplification</p><p>Conj:   $x, y : x \and y$</p><p>Simp:  $x \and y: x$<br>              $x \and y: y $</p><p>&emsp;</p><p>The $\or$ rules: Addition and Disjunctive Syllogism</p><p>Add:  $x : x \or y$</p><p>DS:    $x \or y , \neg x : y$</p><p>​           $ x \or y , \neg y : x$</p><p> &emsp;</p><p>The double $\rightarrow$ rules: Hypothetical Syllogism and Constructive Dilemma</p><p>HS: $x→y, y→z : x→z$</p><p>CD: $w \or x, w→y, x→z : y \or z$</p><p>&emsp;</p>]]></content>
+    <content type="html"><![CDATA[<p>The  $\rightarrow$ rules: Modus Ponens and Modus Tollens</p><p>MP:  $x→y,  x : y$​</p><p>MT: $x→y, \neg y: \neg x$</p><p>&emsp;</p><p>The $\and$ rules: Conjunction and Simplification</p><p>Conj:   $x, y : x \and y$</p><p>Simp:  $x \and y: x$<br>              $x \and y: y $</p><p>&emsp;</p><p>The $\or$ rules: Addition and Disjunctive Syllogism</p><p>Add:  $x : x \or y$</p><p>DS:    $x \or y , \neg x : y$<br>           $ x \or y , \neg y : x$</p><p> &emsp;</p><p>The double $\rightarrow$ rules: Hypothetical Syllogism and Constructive Dilemma</p><p>HS: $x→y, y→z : x→z$</p><p>CD: $w \or x, w→y, x→z : y \or z$</p><p>&emsp;</p>]]></content>
     
     <summary type="html">
     
