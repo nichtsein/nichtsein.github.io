@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-09-14T06:52:50.699Z</updated>
+  <updated>2021-09-14T08:34:59.190Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -21,19 +21,16 @@
     <link href="http://nichtsein.github.io/2021/09/13/eight-rules-of-inference/"/>
     <id>http://nichtsein.github.io/2021/09/13/eight-rules-of-inference/</id>
     <published>2021-09-13T13:26:57.000Z</published>
-    <updated>2021-09-14T06:52:50.699Z</updated>
+    <updated>2021-09-14T08:34:59.190Z</updated>
     
-    <content type="html"><![CDATA[<p>The  $\rightarrow$ rules: Modus Ponens and Modus Tollens</p><p>MP:  $x→y,  x : y$​</p><p>MT: $x→y, \neg y: \neg x$</p><p>&emsp;</p><p>The $\and$ rules: Conjunction and Simplification</p><p>Conj:   $x, y : x \and y$</p><p>Simp:  $x \and y: x$<br>              $x \and y: y $</p><p>&emsp;</p><p>The $\or$ rules: Addition and Disjunctive Syllogism</p><p>Add:  $x : x \or y$</p><p>DS:    $x \or y , \neg x : y$<br>           $ x \or y , \neg y : x$</p><p> &emsp;</p><p>The double $\rightarrow$ rules: Hypothetical Syllogism and Constructive Dilemma</p><p>HS: $x→y, y→z : x→z$</p><p>CD: $w \or x, w→y, x→z : y \or z$</p><p>&emsp;</p>]]></content>
+    <content type="html"><![CDATA[<script type="math/tex; mode=display">f(x) = a - b \tag{1.1}</script><p>The  $\rightarrow$ rules: Modus Ponens and Modus Tollens</p><p>MP:  $x→y,  x : y$​</p><p>MT: $x→y, \neg y: \neg x$</p><p>&emsp;</p><p>The $\and$ rules: Conjunction and Simplification</p><p>Conj:   $x, y : x \and y$</p><p>Simp:  $x \and y: x$<br>              $x \and y: y $</p><p>&emsp;</p><p>The $\or$ rules: Addition and Disjunctive Syllogism</p><p>Add:  $x : x \wedge \vee y$</p><p>DS:    $x \or y , \neg x : y$<br>           $ x \or y , \neg y : x$</p><p> &emsp;</p><p>The double $\rightarrow$ rules: Hypothetical Syllogism and Constructive Dilemma</p><p>HS: $x→y, y→z : x→z$</p><p>CD: $w \or x, w→y, x→z : y \or z$</p><p>&emsp;</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;The  $\rightarrow$ rules: Modus Ponens and Modus Tollens&lt;/p&gt;
-&lt;p&gt;MP:  $x→y,  x : y$​&lt;/p&gt;
-&lt;p&gt;MT: $x→y, \neg y: \neg x$&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&lt;/p&gt;
-&lt;p
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = a - b \tag{1.1}&lt;/script&gt;&lt;p&gt;The  $\rightarrow$ rules: Modus Ponens and Modus Tollens&lt;/p&gt;
+&lt;p&gt;MP: 
       
     
     </summary>
@@ -49,12 +46,11 @@
     <published>2021-09-07T12:29:06.000Z</published>
     <updated>2021-09-07T17:52:50.228Z</updated>
     
-    <content type="html"><![CDATA[<img src="https://tse1-mm.cn.bing.net/th/id/R-C.9c6a31a0d5340e9eeec6af0055a65229?rik=Dkp1F83fkjCiNw&riu=http%3a%2f%2fwww.tsiosophy.com%2fwp%2fwp-content%2fuploads%2f2011%2f05%2fVenice-St.-Marks-Basin.jpg&ehk=R3iiBar9xkUUivzrdO%2fiBU3JjRdAv%2bP4J9GKcSZUeak%3d&risl=&pid=ImgRaw&r=0" style="zoom:200%;" /><p>15世紀始，文藝復興給意大利城邦帶來的不僅僅是溯追古羅馬和古希臘文學藝術的回歸，更是法律精神的回歸。</p><a id="more"></a><p>這一時期，商人、文學藝術工作者、科學家、船長、船舶製造商等社會各階層齊聚亞平寧半島。他們貿易、投資、交流、寫作、繪畫、辯論、訴訟，在學校裡、在港口處、在街頭巷尾、在法庭上、在即將遠航的冒險船上。貿易中金銀在流通，交流中概念也在流通。人們越發意識到，不僅僅是元素符號為Au和Ag的金屬可以被視為財產「property」，誕生於大腦神經元的觀念/想法「idea」也值得同貴金屬一般的地位。馳騁於地中海的企業家們腰包越來越鼓，腦子也越來越好。他們逐漸意識到，不僅要保護好自己的口袋中的財產，也不能忽視對智力財產的保護。好在意大利不僅有優秀的企業家，還有卓越的執政官和法學家。他們共商國是，於法學和政治上，將財產的範疇，從有形的貴金屬，拓展到無形的觀念。</p><p>法律專利的概念在威尼斯「Venice」出現。1474年，威尼斯的議會發佈了首個通用性專利法律——<strong style="color:#c04851;"><em>The Venetian Patent Statute</em></strong>，這意味著建立起一個保護創造者權益的法律體系。這一套保護創造者權益的專利法不僅保護著當時意大利創造者的財產權益，它還為後世專利保護提供樣板。</p><p>這是人類文明首部保護知識產權「intellectual property rights」的法律框架。創造者的智力勞動成果在法律上得到承認，法律賦予創造者其知識「knowledge」以所有權「owned」。既在法律層面上展現出對腦力勞動、創新的尊重，亦是突顯出私有權在智力層面上的天然性。威尼斯的法學家和執政官在人類天然的私有權領域增添了智力勞動的範疇，走在了時代前列。</p><p>另一個重要的意義在於，法學家認識到，<strong style="color:#c04851;">對知識產權的保護，實際上是保護人類天然的、基於利益驅動的創造慾望</strong>。沒有潛在的貨幣輸入，還會有人有強烈的慾望去發明創造？這是資本主義對於人類天然創造慾望的保護。</p><p>&emsp;</p><p><img src="https://s3.bmp.ovh/imgs/2021/09/fd3ef6626dcf2c21.png" alt=""></p><center>Venetian Patent Statute</center><p>&emsp;</p><p>這一執政策略的落實和法律框架的確立，將威尼斯抬上歐洲貿易中心的寶座，不僅執地中海貿易之牛耳，將貿易觸角伸至印度和中亞，還使其處於科技發展的中心地位。</p><p>在英格蘭，原先聚焦發明領域的專利概念拓展了其內容，包含了銷售特定產品或技能的排他性權利「exclusive rights」，即專營「monopolies」。這一改變旨在鼓勵外國的發明家和手工匠人來英。專營範圍由早期的彩色玻璃、威尼斯絲綢到後來包括鹽和澱粉等常用物質。</p><p>執政官推出專營，最早是為了吸引外國投資者。但後來專營發展越來越大，已經形成畸形的市場環境。到16世紀末，這些專營惹得民眾不滿。在1601年，英國議會迫使伊莉薩白一世運用權力去規範專營現象和取締一些專營企業。1621年，法官愛德華 · 科克爵士「Sir Edward Coke」組織討論專營法規 <strong style="color:#c04851;">The Statute of Monopolies</strong>，該法三年後正式成為成文法。<strong style="color:#c04851;">The Statute of Monopolies</strong> 是英格蘭從封建向資本主義發展的一個重要標誌。</p><blockquote><p>The king himself should be under no man but under God and the Law.</p><p align="right">——Sir Edward Coke</p></blockquote><p>&emsp;</p><img src="https://img.fruugo.com/product/7/57/14629577_max.jpg" style="zoom: 80%;" /><center>Sir Edward Coke</center><p>&emsp;</p><p>英格蘭第一個被准予的專利是威尼斯工程師 Jacopo Aconcio 於1565年獲得的。Jacopo Aconcio 說過這麼一番話：</p><blockquote><p>Those who by searching have found out things useful to the public should have some fruit of their rights and labors.</p></blockquote><p>&emsp;</p><p>資本主義國家在長期的發展中，已經形成了重視市場的作用的優良傳統。國家主要以法律為重要手段來介入市場，起到調節而非主導作用。法律一旦確立，則很難更改，因此延續性的法律框架為市場主體發揮作用起到良好的外部作用。而在中國，大政府小社會。強大的政府以政策干涉市場活動，但現實狀況是政策朝令夕改，新官上任改前任，政策糟糕的延續性。在加上中國上千年重公輕私的文化傳統，私有產權概念不強。在1949年後的中國大陸，執政黨更是以公之名強力掠奪私有財產，流氓一般，無恥至極。</p>]]></content>
+    <content type="html"><![CDATA[<img src="https://tse1-mm.cn.bing.net/th/id/R-C.9c6a31a0d5340e9eeec6af0055a65229?rik=Dkp1F83fkjCiNw&riu=http%3a%2f%2fwww.tsiosophy.com%2fwp%2fwp-content%2fuploads%2f2011%2f05%2fVenice-St.-Marks-Basin.jpg&ehk=R3iiBar9xkUUivzrdO%2fiBU3JjRdAv%2bP4J9GKcSZUeak%3d&risl=&pid=ImgRaw&r=0" style="zoom:200%;" /><p>15世紀始，文藝復興給意大利城邦帶來的不僅僅是溯追古羅馬和古希臘文學藝術的回歸，更是法律精神的回歸。</p><a id="more"></a><p>這一時期，商人、文學藝術工作者、科學家、船長、船舶製造商等社會各階層齊聚亞平寧半島。他們貿易、投資、交流、寫作、繪畫、辯論、訴訟，在學校裡、在港口處、在街頭巷尾、在法庭上、在即將遠航的冒險船上。貿易中金銀在流通，交流中概念也在流通。人們越發意識到，不僅僅是元素符號為Au和Ag的金屬可以被視為財產「property」，誕生於大腦神經元的觀念/想法「idea」也值得同貴金屬一般的地位。馳騁於地中海的企業家們腰包越來越鼓，腦子也越來越好。他們逐漸意識到，不僅要保護好自己的口袋中的財產，也不能忽視對智力財產的保護。好在意大利不僅有優秀的企業家，還有卓越的執政官和法學家。他們共商國是，於法學和政治上，將財產的範疇，從有形的貴金屬，拓展到無形的觀念。</p><p>法律專利的概念在威尼斯「Venice」出現。1474年，威尼斯的議會發佈了首個通用性專利法律——<strong style="color:#c04851;"><em>The Venetian Patent Statute</em></strong>，這意味著建立起一個保護創造者權益的法律體系。這一套保護創造者權益的專利法不僅保護著當時意大利創造者的財產權益，它還為後世專利保護提供樣板。</p><p>這是人類文明首部保護知識產權「intellectual property rights」的法律框架。創造者的智力勞動成果在法律上得到承認，法律賦予創造者其知識「knowledge」以所有權「owned」。既在法律層面上展現出對腦力勞動、創新的尊重，亦是突顯出私有權在智力層面上的天然性。威尼斯的法學家和執政官在人類天然的私有權領域增添了智力勞動的範疇，走在了時代前列。</p><p>另一個重要的意義在於，法學家認識到，<strong style="color:#c04851;">對知識產權的保護，實際上是保護人類天然的、基於利益驅動的創造慾望</strong>。沒有潛在的貨幣輸入，還會有人有強烈的慾望去發明創造？這是資本主義對於人類天然創造慾望的保護。</p><p> </p><p><img src="https://s3.bmp.ovh/imgs/2021/09/fd3ef6626dcf2c21.png" alt="" /></p><center>Venetian Patent Statute</center><p> </p><p>這一執政策略的落實和法律框架的確立，將威尼斯抬上歐洲貿易中心的寶座，不僅執地中海貿易之牛耳，將貿易觸角伸至印度和中亞，還使其處於科技發展的中心地位。</p><p>在英格蘭，原先聚焦發明領域的專利概念拓展了其內容，包含了銷售特定產品或技能的排他性權利「exclusive rights」，即專營「monopolies」。這一改變旨在鼓勵外國的發明家和手工匠人來英。專營範圍由早期的彩色玻璃、威尼斯絲綢到後來包括鹽和澱粉等常用物質。</p><p>執政官推出專營，最早是為了吸引外國投資者。但後來專營發展越來越大，已經形成畸形的市場環境。到16世紀末，這些專營惹得民眾不滿。在1601年，英國議會迫使伊莉薩白一世運用權力去規範專營現象和取締一些專營企業。1621年，法官愛德華 · 科克爵士「Sir Edward Coke」組織討論專營法規 <strong style="color:#c04851;">The Statute of Monopolies</strong>，該法三年後正式成為成文法。<strong style="color:#c04851;">The Statute of Monopolies</strong> 是英格蘭從封建向資本主義發展的一個重要標誌。</p><blockquote><p>The king himself should be under no man but under God and the Law.</p><p align="right">——Sir Edward Coke</p></blockquote><p> </p><img src="https://img.fruugo.com/product/7/57/14629577_max.jpg" style="zoom: 80%;" /><center>Sir Edward Coke</center><p> </p><p>英格蘭第一個被准予的專利是威尼斯工程師 Jacopo Aconcio 於1565年獲得的。Jacopo Aconcio 說過這麼一番話：</p><blockquote><p>Those who by searching have found out things useful to the public should have some fruit of their rights and labors.</p></blockquote><p> </p><p>資本主義國家在長期的發展中，已經形成了重視市場的作用的優良傳統。國家主要以法律為重要手段來介入市場，起到調節而非主導作用。法律一旦確立，則很難更改，因此延續性的法律框架為市場主體發揮作用起到良好的外部作用。而在中國，大政府小社會。強大的政府以政策干涉市場活動，但現實狀況是政策朝令夕改，新官上任改前任，政策糟糕的延續性。在加上中國上千年重公輕私的文化傳統，私有產權概念不強。在1949年後的中國大陸，執政黨更是以公之名強力掠奪私有財產，流氓一般，無恥至極。</p>]]></content>
     
     <summary type="html">
     
       &lt;img src=&quot;https://tse1-mm.cn.bing.net/th/id/R-C.9c6a31a0d5340e9eeec6af0055a65229?rik=Dkp1F83fkjCiNw&amp;riu=http%3a%2f%2fwww.tsiosophy.com%2fwp%2fwp-content%2fuploads%2f2011%2f05%2fVenice-St.-Marks-Basin.jpg&amp;ehk=R3iiBar9xkUUivzrdO%2fiBU3JjRdAv%2bP4J9GKcSZUeak%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&quot; style=&quot;zoom:200%;&quot; /&gt;
-
 &lt;p&gt;15世紀始，文藝復興給意大利城邦帶來的不僅僅是溯追古羅馬和古希臘文學藝術的回歸，更是法律精神的回歸。&lt;/p&gt;
     
     </summary>
@@ -72,13 +68,13 @@
     <published>2021-09-06T11:35:04.000Z</published>
     <updated>2021-09-06T14:42:50.382Z</updated>
     
-    <content type="html"><![CDATA[<p> 最近在看一部紀錄片，『<strong style="color:#c04851;">車輪上的美國</strong>』。</p><p>一行人以賽麟「SALEEN」美式肌肉車為移動的點，以美國高速公路為線，展現美國社會教育、飲食、賽車、牛仔等方方面面。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近在看一部紀錄片，『<strong style="color:#c04851;">車輪上的美國</strong>』。</p><p>一行人以賽麟「SALEEN」美式肌肉車為移動的點，以美國高速公路為線，展現美國社會教育、飲食、賽車、牛仔等方方面面。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt; 最近在看一部紀錄片，『&lt;strong style=&quot;color:#c04851;&quot;&gt;車輪上的美國&lt;/strong&gt;』。&lt;/p&gt;
+        &lt;p&gt;最近在看一部紀錄片，『&lt;strong style=&quot;color:#c04851;&quot;&gt;車輪上的美國&lt;/strong&gt;』。&lt;/p&gt;
 &lt;p&gt;一行人以賽麟「SALEEN」美式肌肉車為移動的點，以美國高速公路為線，展現美國社會教育、飲食、賽車、牛仔等方方面面。&lt;/p&gt;
 
       
@@ -148,8 +144,7 @@
       
       
         &lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/10903013615.jpg&quot; style=&quot;zoom: 67%;&quot; /&gt;
-
-&lt;center&gt;今日首次使用空氣炸鍋，炸地瓜。味道很棒，炸得很均勻。&lt;/c
+&lt;center&gt;今日首次使用空氣炸鍋，炸地瓜。味道很棒，炸得很均勻。&lt;/ce
       
     
     </summary>
@@ -211,11 +206,11 @@
     <published>2021-08-18T12:06:09.000Z</published>
     <updated>2021-09-09T07:36:34.285Z</updated>
     
-    <content type="html"><![CDATA[<p> <img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010340.jpg" alt=""></p><center>食在廣府之<strong style="color:#c04851;">龔記牛莊</strong></center><a id="more"></a><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010348.jpg" alt=""></p><center>傳了四代的老字號，還上過不少的美食紀錄片，店外不少等候的客人。</center><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010427.jpg" alt=""></p><center>所食一覽</center><p>&emsp;</p><iframe src="//player.bilibili.com/player.html?aid=590352778&bvid=BV1tq4y1Z7io&cid=403505534&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><center>點了店內招牌，牛仔牛雜煲，滿滿一鍋料，牛肉鬆軟彈牙。</center><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010403.jpg" alt=""></p><center>食慾滿滿</center><p> &emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010410.jpg" alt=""></p><center>牛肉不粘牙</center><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010417.jpg" alt=""></p><center>最為驚喜的是牛腸，雖然腸內滿是脂肪，入口卻是肥而不膩，軟糯十足。</center><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010433.jpg" alt=""></p><p>此為店內另一招牌，<strong>百歲牛骨湯</strong>，是為賀創始人龔老婆婆百歲大壽所做之湯，故得其名。大骨熬湯，配以花生、眉豆、枸杞，味道清甜。</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010340.jpg" alt="" /></p><center>食在廣府之<strong style="color:#c04851;">龔記牛莊</strong></center><a id="more"></a><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010348.jpg" alt="" /></p><center>傳了四代的老字號，還上過不少的美食紀錄片，店外不少等候的客人。</center><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010427.jpg" alt="" /></p><center>所食一覽</center><p> </p><iframe src="//player.bilibili.com/player.html?aid=590352778&bvid=BV1tq4y1Z7io&cid=403505534&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><center>點了店內招牌，牛仔牛雜煲，滿滿一鍋料，牛肉鬆軟彈牙。</center><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010403.jpg" alt="" /></p><center>食慾滿滿</center><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010410.jpg" alt="" /></p><center>牛肉不粘牙</center><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010417.jpg" alt="" /></p><center>最為驚喜的是牛腸，雖然腸內滿是脂肪，入口卻是肥而不膩，軟糯十足。</center><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010433.jpg" alt="" /></p><p>此為店內另一招牌，<strong>百歲牛骨湯</strong>，是為賀創始人龔老婆婆百歲大壽所做之湯，故得其名。大骨熬湯，配以花生、眉豆、枸杞，味道清甜。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt; &lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010340.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010340.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;center&gt;食在廣府之&lt;strong style=&quot;color:#c04851;&quot;&gt;龔記牛莊&lt;/strong&gt;&lt;/center&gt;
     
     </summary>
@@ -231,11 +226,11 @@
     <published>2021-08-18T06:58:43.000Z</published>
     <updated>2021-09-05T17:17:29.618Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906005730.jpg" alt=""></p><center>雨後慵懶的加菲</center><a id="more"></a><p>&emsp;</p><iframe src="//player.bilibili.com/player.html?aid=720336494&bvid=BV1sQ4y1a77i&cid=403504540&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><center>搖尾巴的肥貓</center>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906005730.jpg" alt="" /></p><center>雨後慵懶的加菲</center><a id="more"></a><p> </p><iframe src="//player.bilibili.com/player.html?aid=720336494&bvid=BV1sQ4y1a77i&cid=403504540&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><center>搖尾巴的肥貓</center>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906005730.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906005730.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;center&gt;雨後慵懶的加菲&lt;/center&gt;
     
     </summary>
@@ -251,12 +246,11 @@
     <published>2021-08-18T02:50:23.000Z</published>
     <updated>2021-09-08T03:54:04.134Z</updated>
     
-    <content type="html"><![CDATA[ <center>食在廣府之<strong style="color:#c04851;">黃恩記茶餐廳</strong></center><center>茶餐廳多來自香港，而黃恩記卻是來自澳門。</center> <a id="more"></a><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906004909.jpg" alt=""></p><center>豬骨湯豬扒通粉，河粉勁道十足，粉中留有淡淡豬扒之味。</center><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906004913.jpg" alt=""></p><center>龍珠奶蓋西多士，味覺體驗沒有視覺效果驚豔，西多士不夠鬆軟。</center><p>&emsp;</p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906004917.jpg" alt=""> </p><center>奶油豬仔包，相當好吃。爽脆的外殼，鬆軟的內餡。一口下去，脆軟交疊。奶油是點睛之筆。</center>]]></content>
+    <content type="html"><![CDATA[ <center>食在廣府之<strong style="color:#c04851;">黃恩記茶餐廳</strong></center><center>茶餐廳多來自香港，而黃恩記卻是來自澳門。</center> <a id="more"></a><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906004909.jpg" alt="" /></p><center>豬骨湯豬扒通粉，河粉勁道十足，粉中留有淡淡豬扒之味。</center><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906004913.jpg" alt="" /></p><center>龍珠奶蓋西多士，味覺體驗沒有視覺效果驚豔，西多士不夠鬆軟。</center><p> </p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906004917.jpg" alt="" /></p><center>奶油豬仔包，相當好吃。爽脆的外殼，鬆軟的內餡。一口下去，脆軟交疊。奶油是點睛之筆。</center>]]></content>
     
     <summary type="html">
     
       &lt;center&gt;食在廣府之&lt;strong style=&quot;color:#c04851;&quot;&gt;黃恩記茶餐廳&lt;/strong&gt;&lt;/center&gt;
-
 &lt;center&gt;茶餐廳多來自香港，而黃恩記卻是來自澳門。&lt;/center&gt;
     
     </summary>
@@ -272,7 +266,7 @@
     <published>2021-08-17T15:16:24.000Z</published>
     <updated>2021-09-05T16:47:31.313Z</updated>
     
-    <content type="html"><![CDATA[<p>京滬鵬穗，穗城離瓊最近，卻是我最晚來的。在海南人耳中，廣州出現的頻率明顯要高於其他三座城，可以說是京滬鵬穗四大城中存在感最高的城市。在我小的時候，父母曾來過，對這座城市有天然的親切感。</p><p>辛丑七月初十，首次抵達廣府。</p><p>不是新朋友的相遇，是舊友之重逢。</p><a id="more"></a><p>晚餐食於點都德：</p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/1232.jpg" style="zoom: 50%;" /><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/wew.jpg" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/906001838.jpg" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/0906001843.jpg" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/10906001848.jpg" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/210906001852.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p>京滬鵬穗，穗城離瓊最近，卻是我最晚來的。在海南人耳中，廣州出現的頻率明顯要高於其他三座城，可以說是京滬鵬穗四大城中存在感最高的城市。在我小的時候，父母曾來過，對這座城市有天然的親切感。</p><p>辛丑七月初十，首次抵達廣府。</p><p>不是新朋友的相遇，是舊友之重逢。</p><a id="more"></a><p>晚餐食於點都德：</p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/1232.jpg" style="zoom: 50%;" /><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/wew.jpg" alt="" /></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/906001838.jpg" alt="" /></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/0906001843.jpg" alt="" /></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/10906001848.jpg" alt="" /></p><p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/210906001852.jpg" alt="" /></p>]]></content>
     
     <summary type="html">
     
@@ -387,14 +381,14 @@
     <published>2021-08-11T08:29:25.000Z</published>
     <updated>2021-08-11T08:44:20.863Z</updated>
     
-    <content type="html"><![CDATA[<p> 最近阿里高管性侵女下屬的事件鬧得沸沸揚揚。一家致力於輸出價值觀的企業，內部管理機制被曝出如此醜聞。著實是嚴重的公關事件。</p><p>藉此一提，組織的規模擴大，內部就面臨著各種問題，引人注目的無非是僵化的管理機制。在經濟領域、作為企業的阿里如此；在政治領域，有共黨如此，無怪乎近些年共黨對內部人員、機制等等方面嚴加管理和提純。</p><p>不知道企業、政黨和軍隊如此處理龐雜組織的僵化體制問題。想知道西點軍校對於該問題的思考。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近阿里高管性侵女下屬的事件鬧得沸沸揚揚。一家致力於輸出價值觀的企業，內部管理機制被曝出如此醜聞。著實是嚴重的公關事件。</p><p>藉此一提，組織的規模擴大，內部就面臨著各種問題，引人注目的無非是僵化的管理機制。在經濟領域、作為企業的阿里如此；在政治領域，有共黨如此，無怪乎近些年共黨對內部人員、機制等等方面嚴加管理和提純。</p><p>不知道企業、政黨和軍隊如此處理龐雜組織的僵化體制問題。想知道西點軍校對於該問題的思考。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt; 最近阿里高管性侵女下屬的事件鬧得沸沸揚揚。一家致力於輸出價值觀的企業，內部管理機制被曝出如此醜聞。著實是嚴重的公關事件。&lt;/p&gt;
-&lt;p&gt;藉此一提，組織的規模擴大，內部就面臨著各種問題，引人注目的無非是僵化的管理機制。在經濟領域、作為企業的阿里如此；在政治領域，有共黨如此，
+        &lt;p&gt;最近阿里高管性侵女下屬的事件鬧得沸沸揚揚。一家致力於輸出價值觀的企業，內部管理機制被曝出如此醜聞。著實是嚴重的公關事件。&lt;/p&gt;
+&lt;p&gt;藉此一提，組織的規模擴大，內部就面臨著各種問題，引人注目的無非是僵化的管理機制。在經濟領域、作為企業的阿里如此；在政治領域，有共黨如此，無
       
     
     </summary>
@@ -410,13 +404,13 @@
     <published>2021-08-11T08:27:16.000Z</published>
     <updated>2021-08-11T08:28:24.477Z</updated>
     
-    <content type="html"><![CDATA[<p> 只有這個人設比那個人設好，沒有這個人比那個人好。娛樂圈內如此，娛樂圈外也如此。</p>]]></content>
+    <content type="html"><![CDATA[<p>只有這個人設比那個人設好，沒有這個人比那個人好。娛樂圈內如此，娛樂圈外也如此。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt; 只有這個人設比那個人設好，沒有這個人比那個人好。娛樂圈內如此，娛樂圈外也如此。&lt;/p&gt;
+        &lt;p&gt;只有這個人設比那個人設好，沒有這個人比那個人好。娛樂圈內如此，娛樂圈外也如此。&lt;/p&gt;
 
       
     
@@ -433,7 +427,7 @@
     <published>2021-07-30T15:53:04.000Z</published>
     <updated>2021-08-09T16:12:41.989Z</updated>
     
-    <content type="html"><![CDATA[<p>我們每個人都不可避免的，在被社會馴化。往往這種馴化是不知不覺的，悄無聲息的，最後讓你覺得那就是你自己。我們現在做出的任何行為和選擇，以及腦中的思想，都是資訊環境的產物。<strong>與其被環境馴化，不如自己馴化自己。</strong></p><a id="more"></a><p>因為很多時候，你都不知道是誰在馴化你，也不知道你已經被馴化到了什麼程度。也不知道被馴化後的行為是對自己有利，還是對馴化你的人有利。一定要時刻警醒，不要被別人灌入腦中的毒液麻痹；不要用別人的鎖，給自己的思維套上籠頭。</p><p>河南洪災使那麼多人丟失家園，該追責追責，該救助救助，但是我發現一個問題，也希望梳理清楚提醒自己和他人。這樣可以避免災難的發生，也能在日常生活中多掌握一些主動權。有些場景裡的人們，明顯表現出裡被馴化後的特徵，災難臨頭，沒有自救意識。這不能怪他們，他們是無辜的。</p><p>哪一幕呢？地鐵裡那一幕。</p><p>地鐵裡的人們，水已經沒到肩膀了，可是那麼多人，表情居然那麼淡定，淡定的非常詭異。據我所知，能在生死關頭凝神靜氣的，都是大賢大聖，一個時代能出現的屈指可數。普通人在危險面前，慌亂，驚嚇，恐懼，崩潰才是正常的現象。人格完整一些的，勇敢一些的，也是興奮，想辦法自救。</p><p>可是地鐵裡的那麼多人，集體表現出那麼淡定，實在太詭異了。更大概率是，他們在迷茫，懵懂，聽天由命中。他們將自己的命運交給了其他力量。在親歷者的表述中，我們看到更多的詞是，<strong>別人命令，自己等待，等待救援，期待救援。</strong>有人曾試圖用安全錘砸窗，被人制止後，就再也沒人砸窗了。一開始要往出走的時候，工作人員發現有水進來了，吩咐乘客回車廂，於是大家就都很聽話的回去等。也<strong>沒人懷疑工作人員做出的判斷是否正確</strong>。</p><p>在網上流傳的視頻看，車廂裡的一群人，都在很安靜的等待，在生死面前，不正常的淡定令人覺得詭異。有些人會說，因為車外的水位高於車內，砸窗水會進來。但是，砸窗還有生還的可能，不砸窗，很大概率會死。</p><p>畢竟，救援不是一定會等來的，尤其在突發狀況面前，相關部門不一定反應那麼快。就算能反映過來，需要救援的地方很多，不一定能及時趕到。所以，等待和期待，不應該是生死關頭的態度。</p><p>但是你想想，<strong>遇到事情就等待，或者期待他人幫助，這不是小孩子的行為邏輯嗎？</strong>怪車上的乘客不懂自救沒意義，為他們開脫也沒意義，很慶倖最後他們得救了。</p><p><strong>但是這個事情很值得我們反思，人群有明顯的馴化痕跡。</strong>馴化成條件反射的聽命令，跟著大流走，聽從指揮，不管是誰的指揮，也不管指揮的對不對。遇到困難選擇等待，在等待的過程中非常茫然。那種詭異淡定的表情，就是習慣性的等待表情。</p><p>不止地鐵上的人，我們平時在生活中，包括自己，其實也有這樣的問題。遇到困難，習慣性的等，靠；看到有人指揮即使心存疑慮也會服從；只要看到自己和多數人的行為一樣就不慌了，不管對錯。</p><p><strong>我們都仿佛羊群裡的一隻羊。</strong>絕對不是荒野裡的貓，和狼，有獨立的行動能力和思維。每個人都被馴化了，只是每個人被馴化的程度不同。</p><p>那麼，我們是什麼時候被馴化的？<strong>從小到大的時時刻刻，都在馴化我們。</strong></p><p>回想一下。小學時候，老師讓我們做活動要排隊，動作要整齊劃一。說話時候先舉手，過節日要聽從老師指揮。後來，每天的生活都是學習書本知識，先去聽老師講，講完把老師佈置的作業做完，最後老師給分數。從小到大經常做操，大家排好隊做操時，老師最多講的是：“小明，別亂跑，別出風頭，要和大家一樣。”生活中的一切事情都由家長負責搞定，你只需要跟著老師安排的步驟，完成任務就行。直到上大學。 工作後也是這樣，分工越來越細化，工作任務由上級領導安排，你只需要把安排的任務完成就行。對整個系統的目標和發展情況一般不關注，也自己知道關注了沒用。</p><p>人在25歲前，是思維模式和行為模式形成的關鍵時期。大多數人在此後的人生中，遇到事時，這兩種模式會<strong>自動運行。</strong>如果不去常常審視，很難反覆運算。</p><p>審視一下就能發現，無論是上學還是工作，我們被教育的最多的是<strong>“服從安排聽指揮”</strong>，同時還被教育<strong>“不要給集體添麻煩，不要出風頭。”</strong>從來沒人教育我們遇到困難主動解決問題。所有的日程都排滿了，任務一個接著一個。完成任務，獲得獎賞，跟著大家一起走，這就是從小到大的日常。我們也基本沒有遇到困難讓自己解決的機會。</p><p><strong>人是很容易被馴化的。</strong></p><p>有一個心理學實驗，如果你對某人的一個行為給出積極回應，他以後就會經常做這件事。如果你對他的另外的行為給出消極回應，他慢慢的就會杜絕那種行為。一旦思維和行動形成了慣性，不加思考就會完成任務，服從命令了，絕對不會亂來。馴化成功。</p><p><strong>外界的馴化一旦成功，就像給大腦帶上了鐐銬，哪怕給你自由自主的權力，也不會去做沒做過的事。</strong>我們曾經看過很多例子，從小被養在籠子裡的動物，即使打開了籠子，他也會回籠子睡覺。因為在他的經歷裡，意識裡根本沒有“原野”這個概念。</p><p>“社會化”是社會學的一個經典的概念，從小的經歷，外界的資訊，是塑造一個人的最大力量。經常有些老年人對我說，他們的前半輩子，被灌輸了太多錯誤的東西，下半輩子，努力的為大腦排毒。力求活成一個清醒的人。</p><p>我也是這樣，我對世界的認識，30歲前全部來自書本，學校和家長。但是後來發現，世界的真相完全不是他們說的那個樣子。於是在竭盡全力，一項一項的解開別人套在我大腦裡的枷鎖。</p><p>雖然這種精神上的手術讓人非常痛苦。但當把別人強加給我的虛假的東西全部置換掉以後，變得頭腦清明，看清了世界的真相，原來更加廣闊明亮。</p><p>所以，<strong>一定要經常審視自己的思維模式和行動模式裡，是不是有外界馴化後的痕跡。</strong>多一些自主意識，面對緊急情況懂得自救，徹底根除等待，聽從，盲從，期待他人的行為習慣。</p><p>警惕在生活中被事情推著走，而不是自己主宰生活的進程。警惕自己是否在尋找人群歸屬感，那種歸屬感是假的，人一旦群體中，智商會降，行為會遇到阻力，有時候將集體滑向錯誤。警惕自己和孩子變得太乖，太聽話。</p><p>不要把自己的任何決定權交給他人。遇到事情一定要自己主動觀察形勢，想出辦法，並且付出行動。如果是經過深思熟慮得出的結論，就一定要堅定自己的想法，不要盲目隨大流。</p><p><strong>有時候大多數人會在迷茫中滑向危險，也許你的清醒，不僅能救自己，也能救別人。</strong></p>]]></content>
+    <content type="html"><![CDATA[<p>我們每個人都不可避免的，在被社會馴化。往往這種馴化是不知不覺的，悄無聲息的，最後讓你覺得那就是你自己。我們現在做出的任何行為和選擇，以及腦中的思想，都是資訊環境的產物。<strong>與其被環境馴化，不如自己馴化自己。</strong></p><a id="more"></a><p>因為很多時候，你都不知道是誰在馴化你，也不知道你已經被馴化到了什麼程度。也不知道被馴化後的行為是對自己有利，還是對馴化你的人有利。一定要時刻警醒，不要被別人灌入腦中的毒液麻痹；不要用別人的鎖，給自己的思維套上籠頭。</p><p>河南洪災使那麼多人丟失家園，該追責追責，該救助救助，但是我發現一個問題，也希望梳理清楚提醒自己和他人。這樣可以避免災難的發生，也能在日常生活中多掌握一些主動權。有些場景裡的人們，明顯表現出裡被馴化後的特徵，災難臨頭，沒有自救意識。這不能怪他們，他們是無辜的。</p><p>哪一幕呢？地鐵裡那一幕。</p><p>地鐵裡的人們，水已經沒到肩膀了，可是那麼多人，表情居然那麼淡定，淡定的非常詭異。據我所知，能在生死關頭凝神靜氣的，都是大賢大聖，一個時代能出現的屈指可數。普通人在危險面前，慌亂，驚嚇，恐懼，崩潰才是正常的現象。人格完整一些的，勇敢一些的，也是興奮，想辦法自救。</p><p>可是地鐵裡的那麼多人，集體表現出那麼淡定，實在太詭異了。更大概率是，他們在迷茫，懵懂，聽天由命中。他們將自己的命運交給了其他力量。在親歷者的表述中，我們看到更多的詞是，<strong>別人命令，自己等待，等待救援，期待救援。<strong>有人曾試圖用安全錘砸窗，被人制止後，就再也沒人砸窗了。一開始要往出走的時候，工作人員發現有水進來了，吩咐乘客回車廂，於是大家就都很聽話的回去等。也</strong>沒人懷疑工作人員做出的判斷是否正確</strong>。</p><p>在網上流傳的視頻看，車廂裡的一群人，都在很安靜的等待，在生死面前，不正常的淡定令人覺得詭異。有些人會說，因為車外的水位高於車內，砸窗水會進來。但是，砸窗還有生還的可能，不砸窗，很大概率會死。</p><p>畢竟，救援不是一定會等來的，尤其在突發狀況面前，相關部門不一定反應那麼快。就算能反映過來，需要救援的地方很多，不一定能及時趕到。所以，等待和期待，不應該是生死關頭的態度。</p><p>但是你想想，**遇到事情就等待，或者期待他人幫助，這不是小孩子的行為邏輯嗎？**怪車上的乘客不懂自救沒意義，為他們開脫也沒意義，很慶倖最後他們得救了。</p><p>**但是這個事情很值得我們反思，人群有明顯的馴化痕跡。**馴化成條件反射的聽命令，跟著大流走，聽從指揮，不管是誰的指揮，也不管指揮的對不對。遇到困難選擇等待，在等待的過程中非常茫然。那種詭異淡定的表情，就是習慣性的等待表情。</p><p>不止地鐵上的人，我們平時在生活中，包括自己，其實也有這樣的問題。遇到困難，習慣性的等，靠；看到有人指揮即使心存疑慮也會服從；只要看到自己和多數人的行為一樣就不慌了，不管對錯。</p><p>**我們都仿佛羊群裡的一隻羊。**絕對不是荒野裡的貓，和狼，有獨立的行動能力和思維。每個人都被馴化了，只是每個人被馴化的程度不同。</p><p>那麼，我們是什麼時候被馴化的？<strong>從小到大的時時刻刻，都在馴化我們。</strong></p><p>回想一下。小學時候，老師讓我們做活動要排隊，動作要整齊劃一。說話時候先舉手，過節日要聽從老師指揮。後來，每天的生活都是學習書本知識，先去聽老師講，講完把老師佈置的作業做完，最後老師給分數。從小到大經常做操，大家排好隊做操時，老師最多講的是：“小明，別亂跑，別出風頭，要和大家一樣。”生活中的一切事情都由家長負責搞定，你只需要跟著老師安排的步驟，完成任務就行。直到上大學。 工作後也是這樣，分工越來越細化，工作任務由上級領導安排，你只需要把安排的任務完成就行。對整個系統的目標和發展情況一般不關注，也自己知道關注了沒用。</p><p>人在25歲前，是思維模式和行為模式形成的關鍵時期。大多數人在此後的人生中，遇到事時，這兩種模式會**自動運行。**如果不去常常審視，很難反覆運算。</p><p>審視一下就能發現，無論是上學還是工作，我們被教育的最多的是**“服從安排聽指揮”<strong>，同時還被教育</strong>“不要給集體添麻煩，不要出風頭。”**從來沒人教育我們遇到困難主動解決問題。所有的日程都排滿了，任務一個接著一個。完成任務，獲得獎賞，跟著大家一起走，這就是從小到大的日常。我們也基本沒有遇到困難讓自己解決的機會。</p><p><strong>人是很容易被馴化的。</strong></p><p>有一個心理學實驗，如果你對某人的一個行為給出積極回應，他以後就會經常做這件事。如果你對他的另外的行為給出消極回應，他慢慢的就會杜絕那種行為。一旦思維和行動形成了慣性，不加思考就會完成任務，服從命令了，絕對不會亂來。馴化成功。</p><p>**外界的馴化一旦成功，就像給大腦帶上了鐐銬，哪怕給你自由自主的權力，也不會去做沒做過的事。**我們曾經看過很多例子，從小被養在籠子裡的動物，即使打開了籠子，他也會回籠子睡覺。因為在他的經歷裡，意識裡根本沒有“原野”這個概念。</p><p>“社會化”是社會學的一個經典的概念，從小的經歷，外界的資訊，是塑造一個人的最大力量。經常有些老年人對我說，他們的前半輩子，被灌輸了太多錯誤的東西，下半輩子，努力的為大腦排毒。力求活成一個清醒的人。</p><p>我也是這樣，我對世界的認識，30歲前全部來自書本，學校和家長。但是後來發現，世界的真相完全不是他們說的那個樣子。於是在竭盡全力，一項一項的解開別人套在我大腦裡的枷鎖。</p><p>雖然這種精神上的手術讓人非常痛苦。但當把別人強加給我的虛假的東西全部置換掉以後，變得頭腦清明，看清了世界的真相，原來更加廣闊明亮。</p><p>所以，**一定要經常審視自己的思維模式和行動模式裡，是不是有外界馴化後的痕跡。**多一些自主意識，面對緊急情況懂得自救，徹底根除等待，聽從，盲從，期待他人的行為習慣。</p><p>警惕在生活中被事情推著走，而不是自己主宰生活的進程。警惕自己是否在尋找人群歸屬感，那種歸屬感是假的，人一旦群體中，智商會降，行為會遇到阻力，有時候將集體滑向錯誤。警惕自己和孩子變得太乖，太聽話。</p><p>不要把自己的任何決定權交給他人。遇到事情一定要自己主動觀察形勢，想出辦法，並且付出行動。如果是經過深思熟慮得出的結論，就一定要堅定自己的想法，不要盲目隨大流。</p><p><strong>有時候大多數人會在迷茫中滑向危險，也許你的清醒，不僅能救自己，也能救別人。</strong></p>]]></content>
     
     <summary type="html">
     
@@ -452,13 +446,13 @@
     <published>2021-07-24T13:38:59.000Z</published>
     <updated>2021-07-25T16:41:09.470Z</updated>
     
-    <content type="html"><![CDATA[<p> 最近河南暴雨，驟發洪災，黎民流離失所。想來卻奇怪，未見朋友圈中的黨員發過哪怕是一條關乎河南的言論或文章。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近河南暴雨，驟發洪災，黎民流離失所。想來卻奇怪，未見朋友圈中的黨員發過哪怕是一條關乎河南的言論或文章。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt; 最近河南暴雨，驟發洪災，黎民流離失所。想來卻奇怪，未見朋友圈中的黨員發過哪怕是一條關乎河南的言論或文章。&lt;/p&gt;
+        &lt;p&gt;最近河南暴雨，驟發洪災，黎民流離失所。想來卻奇怪，未見朋友圈中的黨員發過哪怕是一條關乎河南的言論或文章。&lt;/p&gt;
 
       
     
