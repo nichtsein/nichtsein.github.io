@@ -147,6 +147,215 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://nichtsein.github.io/2021/09/19/Big%20Assumption%20with%20Conditional%20and%20Indirect%20Proofs/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="崑崙">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="臥東懷西自由人">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/09/19/Big%20Assumption%20with%20Conditional%20and%20Indirect%20Proofs/" class="post-title-link" itemprop="url">Big Assumption with Conditional and Indirect Proofs</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2021-09-19 16:39:46" itemprop="dateCreated datePublished" datetime="2021-09-19T16:39:46+08:00">2021-09-19</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+          <p><strong>Conditional proof</strong> and <strong>indirect proof</strong> involve an <strong>assumption</strong>, which is an additional premise that you don’t know is true but you assume is true.</p>
+<h4 id="understanding-conditional-proof"><a class="markdownIt-Anchor" href="#understanding-conditional-proof"></a> Understanding conditional proof</h4>
+<p><strong>Conditional proof</strong> allows you to use part of the conclusion as a premise that you can use to prove the rest of the conclusion.</p>
+<p>To prove the validity of an argument whose conclusion is in the form x → y (that is, any →-statement), you can follow these steps:</p>
+<ol>
+<li>Detach the sub-statement x.</li>
+<li>Add x to your list of premises as an <em>assumed premise</em> (<strong>AP</strong>).</li>
+<li>Prove the sub-statement y as if it were the conclusion.</li>
+</ol>
+<p> </p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+P \rightarrow…'>\begin{align*}
+
+P \rightarrow \neg Q, P \vee \neg R, Q\rightarrow ((\neg P \wedge \neg R) \vee Q \rightarrow P)
+
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+&amp;1 \quad  P \…'>\begin{align*}
+
+&amp;1 \quad  P \rightarrow \neg Q  \tag P
+
+\\
+&amp;2 \quad  P \vee \neg R  \tag { P }
+
+\\
+&amp;3 \quad  Q  \tag{  AP}
+
+\\
+&amp;4 \quad  \neg P  \tag{ 1,3 MT }
+
+\\
+&amp;5\quad \neg R  \tag{ 2,4 DS }
+
+\\
+&amp;6\quad  \neg P \wedge \neg R  \tag{ 4,5 Conj }
+
+\\
+&amp;7 \quad  (\neg P \wedge \neg R) \vee (Q\rightarrow P) \tag { 6 Add }
+
+\\
+&amp;8 \quad  Q \rightarrow ((\neg P\wedge \neg R) \vee (Q\rightarrow P)  \tag { 3,7 CP }
+
+
+\end{align*}
+</p>
+<p> </p>
+<h5 id="flipping-conclusion-with-contra"><a class="markdownIt-Anchor" href="#flipping-conclusion-with-contra"></a> Flipping conclusion with Contra</h5>
+<p>To take full advantage of this section, you have to first remember that you can use every →-statement in two ways: The way it is and in its <a href="https://nichtsein.github.io/2021/09/13/18-rules-of-inference/#more"><strong>Contra</strong> form</a>.</p>
+<p> </p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+P \rightarrow…'>\begin{align*}
+
+P \rightarrow Q, R \vee (Q\rightarrow P):\neg (P \leftrightarrow Q)\rightarrow R
+
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+&amp;1 \quad  P \…'>\begin{align*}
+
+&amp;1 \quad  P \rightarrow Q  \tag {  p   }
+
+\\
+&amp;2 \quad R \vee (Q\rightarrow P)   \tag { p }
+
+\\
+&amp;3 \quad  \neg R  \tag{ AP }
+
+\\
+&amp;4 \quad Q \rightarrow P   \tag{ 2,3 DS }
+
+\\
+&amp;5\quad  (P \rightarrow Q) \wedge (Q \rightarrow P) \tag{ P }
+
+\\
+&amp;6\quad  P \leftrightarrow  Q  \tag{5 Equiv  }
+
+\\
+&amp;7 \quad  \neg R \rightarrow (P \leftrightarrow Q)  \tag {3-6 CP   }
+
+\\
+&amp;8 \quad  \neg (P \leftrightarrow Q) \rightarrow R  \tag { 7 Contra }
+
+
+\end{align*}
+</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://nichtsein.github.io/2021/09/19/x/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="崑崙">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="臥東懷西自由人">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/09/19/x/" class="post-title-link" itemprop="url">Lektion 7 Ein Hotel in Salzburg</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2021-09-19 16:08:30" itemprop="dateCreated datePublished" datetime="2021-09-19T16:08:30+08:00">2021-09-19</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+          <p>複習《Passwort Deutsch 1 - Lektion 7 Ein Hotel in Salzburg》。語言學習早期階段還是要常複習，少食多餐。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
     <link itemprop="mainEntityOfPage" href="http://nichtsein.github.io/2021/09/13/18-rules-of-inference/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -669,132 +878,6 @@ x→y, \neg y: \neg x
   
   
 
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://nichtsein.github.io/2021/08/19/%E9%A6%96%E6%AC%A1%E5%B0%84%E7%AE%AD/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-      <meta itemprop="name" content="崑崙">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="臥東懷西自由人">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/19/%E9%A6%96%E6%AC%A1%E5%B0%84%E7%AE%AD/" class="post-title-link" itemprop="url">首次射箭</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2021-08-19 16:26:46" itemprop="dateCreated datePublished" datetime="2021-08-19T16:26:46+08:00">2021-08-19</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-          <iframe src="//player.bilibili.com/player.html?aid=462870079&bvid=BV1JL411t7uK&cid=403505141&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://nichtsein.github.io/2021/08/18/%E9%BE%94%E8%A8%98%E7%89%9B%E8%8E%8A/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-      <meta itemprop="name" content="崑崙">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="臥東懷西自由人">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/18/%E9%BE%94%E8%A8%98%E7%89%9B%E8%8E%8A/" class="post-title-link" itemprop="url">龔記牛莊</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2021-08-18 20:06:09" itemprop="dateCreated datePublished" datetime="2021-08-18T20:06:09+08:00">2021-08-18</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-          <p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/WeChat%20%E5%9C%96%E7%89%87_20210906010340.jpg" alt="" /></p>
-<center>食在廣府之<strong style="color:#c04851;">龔記牛莊</strong></center>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/08/18/%E9%BE%94%E8%A8%98%E7%89%9B%E8%8E%8A/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
 
   
@@ -867,7 +950,7 @@ x→y, \neg y: \neg x
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">191</span>
+          <span class="site-state-item-count">193</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
