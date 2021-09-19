@@ -28,7 +28,7 @@
 <meta property="og:description" content="Conditional proof and indirect proof involve an assumption, which is an additional premise that you don’t know is true but you assume is true.">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-09-19T08:39:46.000Z">
-<meta property="article:modified_time" content="2021-09-19T10:00:54.989Z">
+<meta property="article:modified_time" content="2021-09-19T10:21:13.366Z">
 <meta property="article:author" content="崑崙">
 <meta name="twitter:card" content="summary">
 
@@ -371,6 +371,54 @@ P:\neg R\vee(Q\rightarrow(P\wedge R))
 <p> </p>
 <p> </p>
 <h3 id="indirect-proof"><a class="markdownIt-Anchor" href="#indirect-proof"></a> Indirect Proof</h3>
+<h3 id="introducing-indirect-proof"><a class="markdownIt-Anchor" href="#introducing-indirect-proof"></a> Introducing indirect proof</h3>
+<p><strong>Indirect proof</strong> (also called <em><strong>proof by contradiction</strong></em>) is a type of logical judo. The idea here is to assume that the conclusion is false and then show why this assumption is wrong. Success means that your conclusion was true all along.</p>
+<p>To prove that any argument is valid, you can follow these steps:</p>
+<ol>
+<li>Negate the conclusion.</li>
+<li>Add the negation to your list of premises as an assumption.</li>
+<li>Prove any <em>contradictory statement</em> (any statement of the form x &amp; ~ x).</li>
+</ol>
+<p> </p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+P\rightarrow(…'>\begin{align*}
+
+P\rightarrow(Q\wedge \neg R), R: \neg (P\vee \neg  R)
+
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+&amp;1 \quad  P\r…'>\begin{align*}
+
+&amp;1 \quad  P\rightarrow(Q\wedge \neg R)  \tag {  P   }
+
+\\
+&amp;2 \quad  R  \tag { P }
+
+\\
+&amp;3 \quad  P\vee \neg  R  \tag{ AP }
+
+\\
+&amp;4 \quad  P  \tag{ 2,3 DS }
+
+\\
+&amp;5\quad Q \wedge \neg  R  \tag{ 1,4 MP }
+
+\\
+&amp;6\quad   \neg R \tag{ Simp }
+
+\\
+&amp;7 \quad R\wedge \neg R   \tag { 2,6 Conj  }
+
+\\
+&amp;8 \quad  \neg (P\vee \neg R)  \tag { 3-7 IP }
+
+
+\end{align*}
+</p>
 
     </div>
 
@@ -449,7 +497,7 @@ P:\neg R\vee(Q\rightarrow(P\wedge R))
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#conditional-proof"><span class="nav-number">1.</span> <span class="nav-text"> Conditional Proof</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#understanding-conditional-proof"><span class="nav-number">1.1.</span> <span class="nav-text"> Understanding conditional proof</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#flipping-conclusion-with-contra"><span class="nav-number">1.2.</span> <span class="nav-text"> Flipping conclusion with Contra</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#winning-through-implication"><span class="nav-number">1.3.</span> <span class="nav-text"> Winning through implication</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#stacking-assumptions"><span class="nav-number">1.4.</span> <span class="nav-text"> Stacking assumptions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#indirect-proof"><span class="nav-number">2.</span> <span class="nav-text"> Indirect Proof</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#conditional-proof"><span class="nav-number">1.</span> <span class="nav-text"> Conditional Proof</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#understanding-conditional-proof"><span class="nav-number">1.1.</span> <span class="nav-text"> Understanding conditional proof</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#flipping-conclusion-with-contra"><span class="nav-number">1.2.</span> <span class="nav-text"> Flipping conclusion with Contra</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#winning-through-implication"><span class="nav-number">1.3.</span> <span class="nav-text"> Winning through implication</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#stacking-assumptions"><span class="nav-number">1.4.</span> <span class="nav-text"> Stacking assumptions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#indirect-proof"><span class="nav-number">2.</span> <span class="nav-text"> Indirect Proof</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#introducing-indirect-proof"><span class="nav-number">3.</span> <span class="nav-text"> Introducing indirect proof</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -593,6 +641,53 @@ setInterval("createtime()",250);
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
