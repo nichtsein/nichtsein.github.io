@@ -28,7 +28,7 @@
 <meta property="og:description" content="Conditional proof and indirect proof involve an assumption, which is an additional premise that you don’t know is true but you assume is true.">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-09-19T08:39:46.000Z">
-<meta property="article:modified_time" content="2021-09-19T11:47:09.465Z">
+<meta property="article:modified_time" content="2021-09-19T11:58:38.234Z">
 <meta property="article:author" content="崑崙">
 <meta name="twitter:card" content="summary">
 
@@ -201,312 +201,386 @@
       
         <p><strong>Conditional proof</strong> and <strong>indirect proof</strong> involve an <strong>assumption</strong>, which is an additional premise that you don’t know is true but you assume is true.</p>
 <a id="more"></a>
-<h3 id="Conditional-Proof"><a href="#Conditional-Proof" class="headerlink" title="Conditional Proof"></a>Conditional Proof</h3><h4 id="Understanding-conditional-proof"><a href="#Understanding-conditional-proof" class="headerlink" title="Understanding conditional proof"></a>Understanding conditional proof</h4><p><strong>Conditional proof</strong> allows you to use part of the conclusion as a premise that you can use to prove the rest of the conclusion.</p>
+<h3 id="conditional-proof"><a class="markdownIt-Anchor" href="#conditional-proof"></a> Conditional Proof</h3>
+<h4 id="understanding-conditional-proof"><a class="markdownIt-Anchor" href="#understanding-conditional-proof"></a> Understanding conditional proof</h4>
+<p><strong>Conditional proof</strong> allows you to use part of the conclusion as a premise that you can use to prove the rest of the conclusion.</p>
 <p>To prove the validity of an argument whose conclusion is in the form x → y (that is, any →-statement), you can follow these steps:</p>
 <ol>
 <li>Detach the sub-statement x.</li>
-<li>Add x to your list of premises as an <em>assumed premise</em> (<strong>AP</strong>). </li>
+<li>Add x to your list of premises as an <em>assumed premise</em> (<strong>AP</strong>).</li>
 <li>Prove the sub-statement y as if it were the conclusion.</li>
 </ol>
-<p>&emsp;</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+<p> </p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+P \rightarrow…'>\begin{align*}
 
 P \rightarrow \neg Q, P \vee \neg R, Q\rightarrow ((\neg P \wedge \neg R) \vee Q \rightarrow P)
 
-\end{align*}</script><p>Proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&1 \quad  P \rightarrow \neg Q  \tag P
+&amp;1 \quad  P \…'>\begin{align*}
 
-\\
-&2 \quad  P \vee \neg R  \tag { P }
-
-\\
-&3 \quad  Q  \tag{  AP}
+&amp;1 \quad  P \rightarrow \neg Q  \tag P
 
 \\
-&4 \quad  \neg P  \tag{ 1,3 MT }
+&amp;2 \quad  P \vee \neg R  \tag { P }
 
 \\
-&5\quad \neg R  \tag{ 2,4 DS }
+&amp;3 \quad  Q  \tag{  AP}
 
 \\
-&6\quad  \neg P \wedge \neg R  \tag{ 4,5 Conj }
+&amp;4 \quad  \neg P  \tag{ 1,3 MT }
 
 \\
-&7 \quad  (\neg P \wedge \neg R) \vee (Q\rightarrow P) \tag { 6 Add }
+&amp;5\quad \neg R  \tag{ 2,4 DS }
 
 \\
-&8 \quad  Q \rightarrow ((\neg P\wedge \neg R) \vee (Q\rightarrow P)  \tag { 3,7 CP }
+&amp;6\quad  \neg P \wedge \neg R  \tag{ 4,5 Conj }
+
+\\
+&amp;7 \quad  (\neg P \wedge \neg R) \vee (Q\rightarrow P) \tag { 6 Add }
+
+\\
+&amp;8 \quad  Q \rightarrow ((\neg P\wedge \neg R) \vee (Q\rightarrow P)  \tag { 3,7 CP }
 
 
-\end{align*}</script><p>&emsp;</p>
-<h4 id="Flipping-conclusion-with-Contra"><a href="#Flipping-conclusion-with-Contra" class="headerlink" title="Flipping conclusion with Contra"></a>Flipping conclusion with Contra</h4><p>To take full advantage of this section, you have to first remember that you can use every →-statement in two ways: The way it is and in its <a href="https://nichtsein.github.io/2021/09/13/18-rules-of-inference/#more"><strong>Contra</strong> form</a>.</p>
-<p>&emsp;</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p> </p>
+<h4 id="flipping-conclusion-with-contra"><a class="markdownIt-Anchor" href="#flipping-conclusion-with-contra"></a> Flipping conclusion with Contra</h4>
+<p>To take full advantage of this section, you have to first remember that you can use every →-statement in two ways: The way it is and in its <a href="https://nichtsein.github.io/2021/09/13/18-rules-of-inference/#more"><strong>Contra</strong> form</a>.</p>
+<p> </p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+P \rightarrow…'>\begin{align*}
 
 P \rightarrow Q, R \vee (Q\rightarrow P):\neg (P \leftrightarrow Q)\rightarrow R
 
-\end{align*}</script><p>Proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&1 \quad  P \rightarrow Q  \tag {  p   }
+&amp;1 \quad  P \…'>\begin{align*}
 
-\\
-&2 \quad R \vee (Q\rightarrow P)   \tag { p }
-
-\\
-&3 \quad  \neg R  \tag{ AP }
+&amp;1 \quad  P \rightarrow Q  \tag {  p   }
 
 \\
-&4 \quad Q \rightarrow P   \tag{ 2,3 DS }
+&amp;2 \quad R \vee (Q\rightarrow P)   \tag { p }
 
 \\
-&5\quad  (P \rightarrow Q) \wedge (Q \rightarrow P) \tag{ P }
+&amp;3 \quad  \neg R  \tag{ AP }
 
 \\
-&6\quad  P \leftrightarrow  Q  \tag{5 Equiv  }
+&amp;4 \quad Q \rightarrow P   \tag{ 2,3 DS }
 
 \\
-&7 \quad  \neg R \rightarrow (P \leftrightarrow Q)  \tag {3-6 CP   }
+&amp;5\quad  (P \rightarrow Q) \wedge (Q \rightarrow P) \tag{ P }
 
 \\
-&8 \quad  \neg (P \leftrightarrow Q) \rightarrow R  \tag { 7 Contra }
+&amp;6\quad  P \leftrightarrow  Q  \tag{5 Equiv  }
+
+\\
+&amp;7 \quad  \neg R \rightarrow (P \leftrightarrow Q)  \tag {3-6 CP   }
+
+\\
+&amp;8 \quad  \neg (P \leftrightarrow Q) \rightarrow R  \tag { 7 Contra }
 
 
-\end{align*}</script><p>&emsp;</p>
-<h4 id="Winning-through-implication"><a href="#Winning-through-implication" class="headerlink" title="Winning through implication"></a>Winning through implication</h4><p>You can also turn any $\vee$-statement into a →-statement by using <strong>Impl</strong> . Using <strong>Impl</strong> makes any 0-statement a potential candidate for conditional proof.</p>
-<p>&emsp;</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p> </p>
+<h4 id="winning-through-implication"><a class="markdownIt-Anchor" href="#winning-through-implication"></a> Winning through implication</h4>
+<p>You can also turn any <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∨</mo></mrow><annotation encoding="application/x-tex">\vee</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∨</span></span></span></span>-statement into a →-statement by using <strong>Impl</strong> . Using <strong>Impl</strong> makes any 0-statement a potential candidate for conditional proof.</p>
+<p> </p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+P:\neg R\vee(…'>\begin{align*}
 
 P:\neg R\vee(Q\rightarrow(P\wedge R))
 
-\end{align*}</script><p>Proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&1 \quad  P  \tag { P    }
+&amp;1 \quad  P  …'>\begin{align*}
 
-\\
-&2 \quad  R\wedge Q  \tag { AP }
-
-\\
-&3 \quad  R  \tag{ 2 Simp }
+&amp;1 \quad  P  \tag { P    }
 
 \\
-&4 \quad  P \wedge R \tag{ 1,3 Conj }
+&amp;2 \quad  R\wedge Q  \tag { AP }
 
 \\
-&5\quad  (P \wedge Q )\rightarrow(P\wedge Q) \tag{ 2-4 CP }
+&amp;3 \quad  R  \tag{ 2 Simp }
 
 \\
-&6\quad  R \rightarrow(Q\rightarrow(P\wedge R))  \tag{ 5 Exp }
+&amp;4 \quad  P \wedge R \tag{ 1,3 Conj }
 
 \\
-&7 \quad  \neg R \vee (Q\rightarrow(P\wedge R))  \tag {  6 Impl }
+&amp;5\quad  (P \wedge Q )\rightarrow(P\wedge Q) \tag{ 2-4 CP }
+
+\\
+&amp;6\quad  R \rightarrow(Q\rightarrow(P\wedge R))  \tag{ 5 Exp }
+
+\\
+&amp;7 \quad  \neg R \vee (Q\rightarrow(P\wedge R))  \tag {  6 Impl }
 
 
 
-\end{align*}</script><p>&emsp;</p>
-<h4 id="Stacking-assumptions"><a href="#Stacking-assumptions" class="headerlink" title="Stacking assumptions"></a>Stacking assumptions</h4><p>After you assume a premise, if the new conclusion is a →-statement (or can be turned into one), you can assume another premise. This is nice way to get two (or more!) assumptions for the price of one. Here’s an example:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p> </p>
+<h4 id="stacking-assumptions"><a class="markdownIt-Anchor" href="#stacking-assumptions"></a> Stacking assumptions</h4>
+<p>After you assume a premise, if the new conclusion is a →-statement (or can be turned into one), you can assume another premise. This is nice way to get two (or more!) assumptions for the price of one. Here’s an example:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+\neg Q \vee R…'>\begin{align*}
 
 \neg Q \vee R: (P\vee R)\rightarrow ((Q\wedge S)\rightarrow (R\wedge S))
 
-\end{align*}</script><p>Proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&1 \quad  \neg Q \vee R  \tag { P    }
+&amp;1 \quad  \ne…'>\begin{align*}
 
-\\
-&2 \quad   (P\vee R)  \tag { AP }
-
-\\
-&3 \quad  Q\wedge S  \tag{ AP }
+&amp;1 \quad  \neg Q \vee R  \tag { P    }
 
 \\
-&4 \quad Q   \tag{3 Simp  }
+&amp;2 \quad   (P\vee R)  \tag { AP }
 
 \\
-&5 \quad  S  \tag{3 Simp  }
+&amp;3 \quad  Q\wedge S  \tag{ AP }
 
 \\
-&6 \quad R   \tag{  1,4 DS}
+&amp;4 \quad Q   \tag{3 Simp  }
 
 \\
-&7 \quad  R \wedge S  \tag { 5.6 Conj  }
+&amp;5 \quad  S  \tag{3 Simp  }
 
 \\
-&8 \quad  (Q\wedge S)\rightarrow (R\wedge S)  \tag { 3-7 CP }
+&amp;6 \quad R   \tag{  1,4 DS}
 
 \\
-&9 \quad  (P\vee R)\rightarrow ((Q\wedge S)\rightarrow (R\wedge S))  \tag{  2-8 CP }
+&amp;7 \quad  R \wedge S  \tag { 5.6 Conj  }
+
+\\
+&amp;8 \quad  (Q\wedge S)\rightarrow (R\wedge S)  \tag { 3-7 CP }
+
+\\
+&amp;9 \quad  (P\vee R)\rightarrow ((Q\wedge S)\rightarrow (R\wedge S))  \tag{  2-8 CP }
 
 
-\end{align*}</script><p>&emsp;</p>
-<p>&emsp;</p>
-<h3 id="Indirect-Proof"><a href="#Indirect-Proof" class="headerlink" title="Indirect Proof"></a>Indirect Proof</h3><h4 id="Introducing-indirect-proof"><a href="#Introducing-indirect-proof" class="headerlink" title="Introducing indirect proof"></a>Introducing indirect proof</h4><p><strong>Indirect proof</strong> (also called <strong><em>proof by contradiction</em></strong>) is a type of logical judo. The idea here is to assume that the conclusion is false and then show why this assumption is wrong. Success means that your conclusion was true all along.</p>
+\end{align*}
+</p>
+<p> </p>
+<p> </p>
+<h3 id="indirect-proof"><a class="markdownIt-Anchor" href="#indirect-proof"></a> Indirect Proof</h3>
+<h4 id="introducing-indirect-proof"><a class="markdownIt-Anchor" href="#introducing-indirect-proof"></a> Introducing indirect proof</h4>
+<p><strong>Indirect proof</strong> (also called <em><strong>proof by contradiction</strong></em>) is a type of logical judo. The idea here is to assume that the conclusion is false and then show why this assumption is wrong. Success means that your conclusion was true all along.</p>
 <p>To prove that any argument is valid, you can follow these steps:</p>
 <ol>
 <li>Negate the conclusion.</li>
 <li>Add the negation to your list of premises as an assumption.</li>
-<li>Prove any <em>contradictory statement</em> (any statement of the form $x \wedge \neg x$).</li>
+<li>Prove any <em>contradictory statement</em> (any statement of the form <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>∧</mo><mi mathvariant="normal">¬</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">x \wedge \neg x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">x</span></span></span></span>).</li>
 </ol>
-<p>&emsp;</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+<p> </p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+P\rightarrow(…'>\begin{align*}
 
 P\rightarrow(Q\wedge \neg R), R: \neg (P\vee \neg  R)
 
-\end{align*}</script><p>Proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&1 \quad  P\rightarrow(Q\wedge \neg R)  \tag {  P   }
+&amp;1 \quad  P\r…'>\begin{align*}
 
-\\
-&2 \quad  R  \tag { P }
-
-\\
-&3 \quad  P\vee \neg  R  \tag{ AP }
-
-\end{align*}</script><p>Your goal now is to prove a statement and its negation, then use them to build a contradictory $\wedge$-statement, like this:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+&amp;1 \quad  P\rightarrow(Q\wedge \neg R)  \tag {  P   }
 
 \\
-&4 \quad  P  \tag{ 2,3 DS }
+&amp;2 \quad  R  \tag { P }
 
 \\
-&5\quad Q \wedge \neg  R  \tag{ 1,4 MP }
+&amp;3 \quad  P\vee \neg  R  \tag{ AP }
+
+\end{align*}
+</p>
+<p>Your goal now is to prove a statement and its negation, then use them to build a contradictory <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∧</mo></mrow><annotation encoding="application/x-tex">\wedge</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∧</span></span></span></span>-statement, like this:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
 \\
-&6\quad   \neg R \tag{ Simp }
-
-\end{align*}</script><p>At this point, you’ve derived both R and $\neg R$, so you can build them into a single contradictory statement as follows: </p>
-<script type="math/tex; mode=display">
-\begin{align*}
+&amp;4 \quad  …'>\begin{align*}
 
 \\
-&7 \quad R\wedge \neg R   \tag { 2,6 Conj  }
+&amp;4 \quad  P  \tag{ 2,3 DS }
 
-\end{align*}</script><p>The assumption has led to an impossible situation, so you know that the AP must be false. If $P\vee \neg  R$ is false, then $\neg (P\vee \neg R)$ must be true:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\\
+&amp;5\quad Q \wedge \neg  R  \tag{ 1,4 MP }
 
-&8 \quad  \neg (P\vee \neg R)  \tag { 3-7 IP }
+\\
+&amp;6\quad   \neg R \tag{ Simp }
 
-\end{align*}</script><h4 id="Proving-short-conclusions"><a href="#Proving-short-conclusions" class="headerlink" title="Proving short conclusions"></a>Proving short conclusions</h4><p>As I mention in Chapter 9, arguments where the conclusion is shorter than the premises tend to be more difficult to prove than those where the conclusion is longer, because breaking down long premises can be tricky.</p>
+\end{align*}
+</p>
+<p>At this point, you’ve derived both R and <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>R</mi></mrow><annotation encoding="application/x-tex">\neg R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span>, so you can build them into a single contradictory statement as follows:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+\\
+&amp;7 \quad R…'>\begin{align*}
+
+\\
+&amp;7 \quad R\wedge \neg R   \tag { 2,6 Conj  }
+
+\end{align*}
+</p>
+<p>The assumption has led to an impossible situation, so you know that the AP must be false. If <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi><mo>∨</mo><mi mathvariant="normal">¬</mi><mi>R</mi></mrow><annotation encoding="application/x-tex">P\vee \neg  R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span> is false, then <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mo stretchy="false">(</mo><mi>P</mi><mo>∨</mo><mi mathvariant="normal">¬</mi><mi>R</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\neg (P\vee \neg R)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">¬</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mclose">)</span></span></span></span> must be true:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+&amp;8 \quad  \ne…'>\begin{align*}
+
+&amp;8 \quad  \neg (P\vee \neg R)  \tag { 3-7 IP }
+
+\end{align*}
+</p>
+<h4 id="proving-short-conclusions"><a class="markdownIt-Anchor" href="#proving-short-conclusions"></a> Proving short conclusions</h4>
+<p>As I mention in Chapter 9, arguments where the conclusion is shorter than the premises tend to be more difficult to prove than those where the conclusion is longer, because breaking down long premises can be tricky.</p>
 <p>However, indirect proof works especially well when the conclusion is shorter than the premises because the negated conclusion becomes a nice short premise for you to use. For example, consider this argument:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+\neg ((\neg P…'>\begin{align*}
 
 \neg ((\neg P \vee Q)\wedge R)\rightarrow S,P\vee \neg R, \neg Q \vee S:S
 
-\end{align*}</script><p>Proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&1 \quad  \neg ((\neg P \vee Q)\wedge R)\rightarrow S  \tag {   P  }
+&amp;1 \quad  \ne…'>\begin{align*}
 
-\\
-&2 \quad  P\vee \neg R  \tag { P }
-
-\\
-&3 \quad  \neg Q \vee S  \tag{ P }
+&amp;1 \quad  \neg ((\neg P \vee Q)\wedge R)\rightarrow S  \tag {   P  }
 
 \\
-&4 \quad   \neg S \tag{AP  }
+&amp;2 \quad  P\vee \neg R  \tag { P }
 
 \\
-&5 \quad  (\neg P \vee Q) \wedge R \tag{ 1,4 MT }
+&amp;3 \quad  \neg Q \vee S  \tag{ P }
 
 \\
-&6 \quad   \neg P \vee Q \tag{5 Simp  }
+&amp;4 \quad   \neg S \tag{AP  }
 
 \\
-&7 \quad  R  \tag {  5 Simp  }
+&amp;5 \quad  (\neg P \vee Q) \wedge R \tag{ 1,4 MT }
 
 \\
-&8 \quad   P \tag { 2,7 DS }
+&amp;6 \quad   \neg P \vee Q \tag{5 Simp  }
 
 \\
-&9 \quad  Q  \tag{ 6,8 DS  }
+&amp;7 \quad  R  \tag {  5 Simp  }
 
 \\
-&10 \quad S   \tag{ 3,9 DS }
+&amp;8 \quad   P \tag { 2,7 DS }
 
-\end{align*}</script><p>:heavy_exclamation_mark:Remember:heavy_exclamation_mark:: When you’re doing an indirect proof, don’t be fooled into thinking you’re done after you prove the conclusion. Remember that you also need to build a contradictory statement.</p>
+\\
+&amp;9 \quad  Q  \tag{ 6,8 DS  }
+
+\\
+&amp;10 \quad S   \tag{ 3,9 DS }
+
+\end{align*}
+</p>
+<p>Remember: When you’re doing an indirect proof, don’t be fooled into thinking you’re done after you prove the conclusion. Remember that you also need to build a contradictory statement.</p>
 <p>In this case, the <strong>AP</strong> leads to its own negation, which allows you to complete the proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
 \\
-&11 \quad  S \wedge \neg S  \tag { 4,10 Conj }
+&amp;11 \quad …'>\begin{align*}
 
 \\
-&12 \quad  S  \tag {  4-11 CP}
+&amp;11 \quad  S \wedge \neg S  \tag { 4,10 Conj }
 
-\end{align*}</script><p>Superficially, line 12 looks like line 10, but now you’ve discharged the <strong>AP</strong>, so the proof is complete.</p>
-<p>&emsp;</p>
-<h3 id="Combining-Conditional-and-Indirect-Proofs"><a href="#Combining-Conditional-and-Indirect-Proofs" class="headerlink" title="Combining Conditional and Indirect Proofs"></a>Combining Conditional and Indirect Proofs</h3><script type="math/tex; mode=display">
-\begin{align*}
+\\
+&amp;12 \quad  S  \tag {  4-11 CP}
+
+\end{align*}
+</p>
+<p>Superficially, line 12 looks like line 10, but now you’ve discharged the <strong>AP</strong>, so the proof is complete.</p>
+<p> </p>
+<h3 id="combining-conditional-and-indirect-proofs"><a class="markdownIt-Anchor" href="#combining-conditional-and-indirect-proofs"></a> Combining Conditional and Indirect Proofs</h3>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+\neg P \wedge…'>\begin{align*}
 
 \neg P \wedge Q\rightarrow(\neg R \wedge S), Q: R\rightarrow P
 
-\end{align*}</script><p>Proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+\end{align*}
+</p>
+<p>Proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
-&1 \quad  \neg P \wedge Q\rightarrow(\neg R \wedge S)  \tag {  P   }
+&amp;1 \quad  \ne…'>\begin{align*}
 
-\\
-&2 \quad   Q \tag { P }
-
-\\
-&3 \quad  \neg (\neg P \wedge Q) \vee (\neg R \wedge S) \tag{1 Impl  }
+&amp;1 \quad  \neg P \wedge Q\rightarrow(\neg R \wedge S)  \tag {  P   }
 
 \\
-&4 \quad  R  \tag{AP (for conditional proof)  }
+&amp;2 \quad   Q \tag { P }
 
 \\
-&5 \quad  \neg P  \tag{AP (for indirect proof)  }
-
-\end{align*}</script><p>Now the goal is to find a contradiction:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+&amp;3 \quad  \neg (\neg P \wedge Q) \vee (\neg R \wedge S) \tag{1 Impl  }
 
 \\
-&6 \quad   \neg P \wedge Q \tag{ 2,5 Conj }
+&amp;4 \quad  R  \tag{AP (for conditional proof)  }
 
 \\
-&7 \quad  \neg R \wedge S  \tag {  1,6 MP }
+&amp;5 \quad  \neg P  \tag{AP (for indirect proof)  }
+
+\end{align*}
+</p>
+<p>Now the goal is to find a contradiction:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
 
 \\
-&8 \quad   \neg R \tag { 7 Simp }
-
-\end{align*}</script><p>Now you’re ready to discharge the AP for the indirect proof:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
+&amp;6 \quad  …'>\begin{align*}
 
 \\
-&9 \quad R\wedge \neg R   \tag{ 4,8 Conj  }
+&amp;6 \quad   \neg P \wedge Q \tag{ 2,5 Conj }
 
 \\
-&10 \quad  P  \tag{ 5-9 IP }
+&amp;7 \quad  \neg R \wedge S  \tag {  1,6 MP }
 
 \\
-&11 \quad  R\rightarrow P  \tag{4-10 CP }
+&amp;8 \quad   \neg R \tag { 7 Simp }
+
+\end{align*}
+</p>
+<p>Now you’re ready to discharge the AP for the indirect proof:</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: align* at position 7: \begin{̲a̲l̲i̲g̲n̲*̲}̲
+
+\\
+&amp;9 \quad R…'>\begin{align*}
+
+\\
+&amp;9 \quad R\wedge \neg R   \tag{ 4,8 Conj  }
+
+\\
+&amp;10 \quad  P  \tag{ 5-9 IP }
+
+\\
+&amp;11 \quad  R\rightarrow P  \tag{4-10 CP }
 
 
-\end{align*}</script><p>When using conditional and indirect proof methods together, discharge your <strong>AP</strong>s starting with the last one you added (here, AP of indirect proof is the last one) and work your way back to the first.</p>
+\end{align*}
+</p>
+<p>When using conditional and indirect proof methods together, discharge your <strong>AP</strong>s starting with the last one you added (here, AP of indirect proof is the last one) and work your way back to the first.</p>
 
     </div>
 
@@ -585,7 +659,7 @@ P\rightarrow(Q\wedge \neg R), R: \neg (P\vee \neg  R)
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Conditional-Proof"><span class="nav-number">1.</span> <span class="nav-text">Conditional Proof</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Understanding-conditional-proof"><span class="nav-number">1.1.</span> <span class="nav-text">Understanding conditional proof</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Flipping-conclusion-with-Contra"><span class="nav-number">1.2.</span> <span class="nav-text">Flipping conclusion with Contra</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Winning-through-implication"><span class="nav-number">1.3.</span> <span class="nav-text">Winning through implication</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Stacking-assumptions"><span class="nav-number">1.4.</span> <span class="nav-text">Stacking assumptions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Indirect-Proof"><span class="nav-number">2.</span> <span class="nav-text">Indirect Proof</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Introducing-indirect-proof"><span class="nav-number">2.1.</span> <span class="nav-text">Introducing indirect proof</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Proving-short-conclusions"><span class="nav-number">2.2.</span> <span class="nav-text">Proving short conclusions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Combining-Conditional-and-Indirect-Proofs"><span class="nav-number">3.</span> <span class="nav-text">Combining Conditional and Indirect Proofs</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#conditional-proof"><span class="nav-number">1.</span> <span class="nav-text"> Conditional Proof</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#understanding-conditional-proof"><span class="nav-number">1.1.</span> <span class="nav-text"> Understanding conditional proof</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#flipping-conclusion-with-contra"><span class="nav-number">1.2.</span> <span class="nav-text"> Flipping conclusion with Contra</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#winning-through-implication"><span class="nav-number">1.3.</span> <span class="nav-text"> Winning through implication</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#stacking-assumptions"><span class="nav-number">1.4.</span> <span class="nav-text"> Stacking assumptions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#indirect-proof"><span class="nav-number">2.</span> <span class="nav-text"> Indirect Proof</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#introducing-indirect-proof"><span class="nav-number">2.1.</span> <span class="nav-text"> Introducing indirect proof</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#proving-short-conclusions"><span class="nav-number">2.2.</span> <span class="nav-text"> Proving short conclusions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#combining-conditional-and-indirect-proofs"><span class="nav-number">3.</span> <span class="nav-text"> Combining Conditional and Indirect Proofs</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
