@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-10-21T11:25:30.510Z</updated>
+  <updated>2021-10-22T06:40:30.223Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python</title>
+    <link href="http://nichtsein.github.io/2021/10/22/Python-1/"/>
+    <id>http://nichtsein.github.io/2021/10/22/Python-1/</id>
+    <published>2021-10-22T05:45:46.000Z</published>
+    <updated>2021-10-22T06:40:30.223Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近瞭解一個複式記賬軟件 Beancount。瞭解它的過程在發現，它是使用 python 寫成的記賬軟件。現在上手 Beancount 明顯門檻有點高，兼具會計知識和編程知識。但是自己在編程語言上的認知上是一窮二白。如今慢慢意識到，在高度計算化的時代背景下，還是得要學一門計算機語言。不僅要瞭解計算機語言，還要瞭解計算機科學。這一切，就從 python 學起吧。</p><p>在網絡找了阿里雲的 python 免費課程，尋找資源的過程中，發現在網絡上有許多系統的計算機學習課程，不由感嘆，資源的便利。選擇的理由是阿里雲這塊牌子下所代表的質量把控。後才知道，這不是阿里雲的自身出的課程，而是出自計算機教育機構尚硅谷之手。從20號開始看，講得通俗易懂，從最簡單的概念出發。比在學校裡上的 python 課程更易上手，至少我是這麼覺得的。我很喜歡這個老師的授課方式。</p><p>不論是計算機編程語言，漢語、英語等人類自然語言，數理邏輯中的邏輯語言，本質上還是傳達信息的語言。故初始階段不要把編程語言的預設難度拔得過高，這僅是一門語言「Language」。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近瞭解一個複式記賬軟件 Beancount。瞭解它的過程在發現，它是使用 python 寫成的記賬軟件。現在上手 Beancount 明顯門檻有點高，兼具會計知識和編程知識。但是自己在編程語言上的認知上是一窮二白。如今慢慢意識到，在高度計算化的時代背景下，還是得要學一門計
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://nichtsein.github.io/categories/Python/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Lektion 3</title>
@@ -474,30 +498,6 @@ x→y, \neg y: \neg x
     
     
       <category term="The Law Book" scheme="http://nichtsein.github.io/categories/The-Law-Book/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>車輪上的美國</title>
-    <link href="http://nichtsein.github.io/2021/09/06/%E8%BB%8A%E8%BC%AA%E4%B8%8A%E7%9A%84%E7%BE%8E%E5%9C%8B/"/>
-    <id>http://nichtsein.github.io/2021/09/06/%E8%BB%8A%E8%BC%AA%E4%B8%8A%E7%9A%84%E7%BE%8E%E5%9C%8B/</id>
-    <published>2021-09-06T11:35:04.000Z</published>
-    <updated>2021-09-06T14:42:50.382Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近在看一部紀錄片，『<strong style="color:#c04851;">車輪上的美國</strong>』。</p><p>一行人以賽麟「SALEEN」美式肌肉車為移動的點，以美國高速公路為線，展現美國社會教育、飲食、賽車、牛仔等方方面面。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;最近在看一部紀錄片，『&lt;strong style=&quot;color:#c04851;&quot;&gt;車輪上的美國&lt;/strong&gt;』。&lt;/p&gt;
-&lt;p&gt;一行人以賽麟「SALEEN」美式肌肉車為移動的點，以美國高速公路為線，展現美國社會教育、飲食、賽車、牛仔等方方面面。&lt;/p&gt;
-
-      
-    
-    </summary>
-    
     
     
   </entry>
