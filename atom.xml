@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-10-23T14:43:43.816Z</updated>
+  <updated>2021-10-23T17:38:28.190Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>The Zen of Python</title>
+    <link href="http://nichtsein.github.io/2021/10/23/python-%E4%BB%8A%E6%97%A5%E8%BF%9B%E5%BA%A6/"/>
+    <id>http://nichtsein.github.io/2021/10/23/python-%E4%BB%8A%E6%97%A5%E8%BF%9B%E5%BA%A6/</id>
+    <published>2021-10-23T15:50:58.000Z</published>
+    <updated>2021-10-23T17:38:28.190Z</updated>
+    
+    <content type="html"><![CDATA[<p>今日初次瞭解到對象概念。</p><p>讀《Python編程——從入門到實踐》，瞭解到 Tim Peters 對於 Python 的設計藝術。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">The Zen of Python, by Tim Peters</span><br><span class="line"></span><br><span class="line">Beautiful is better than ugly.</span><br><span class="line">Explicit is better than implicit.</span><br><span class="line">Simple is better than complex.</span><br><span class="line">Complex is better than complicated.</span><br><span class="line">Flat is better than nested.</span><br><span class="line">Sparse is better than dense.</span><br><span class="line">Readability counts.</span><br><span class="line">Special cases aren&#39;t special enough to break the rules.</span><br><span class="line">Although practicality beats purity.</span><br><span class="line">Errors should never pass silently.</span><br><span class="line">Unless explicitly silenced.</span><br><span class="line">In the face of ambiguity, refuse the temptation to guess.</span><br><span class="line">There should be one-- and preferably only one --obvious way to do it.</span><br><span class="line">Although that way may not be obvious at first unless you&#39;re Dutch.</span><br><span class="line">Now is better than never.</span><br><span class="line">Although never is often better than *right* now.</span><br><span class="line">If the implementation is hard to explain, it&#39;s a bad idea.</span><br><span class="line">If the implementation is easy to explain, it may be a good idea.</span><br><span class="line">Namespaces are one honking great idea -- let&#39;s do more of those!</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今日初次瞭解到對象概念。&lt;/p&gt;
+&lt;p&gt;讀《Python編程——從入門到實踐》，瞭解到 Tim Peters 對於 Python 的設計藝術。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://nichtsein.github.io/categories/Python/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>漂向北方</title>
     <link href="http://nichtsein.github.io/2021/10/23/%E9%A3%84%E5%90%91%E5%8C%97%E6%96%B9/"/>
     <id>http://nichtsein.github.io/2021/10/23/%E9%A3%84%E5%90%91%E5%8C%97%E6%96%B9/</id>
     <published>2021-10-23T12:30:07.000Z</published>
-    <updated>2021-10-23T14:43:43.816Z</updated>
+    <updated>2021-10-23T14:57:52.584Z</updated>
     
-    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/qIF8xvSA0Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>藉由『玻璃心』觸及黃明志之自由靈魂；藉由『漂向北方』觸及黃明志之參得黎民之苦。深得我心。</p><p> </p><center>我站在天子腳下</center><center>被踩得喘不過氣</center>]]></content>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/qIF8xvSA0Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>藉由『玻璃心』觸及黃明志之自由靈魂；藉由『漂向北方』觸及黃明志之參得黎民之苦。深得我心。</p><center>我站在天子腳下</center><center>被踩得喘不過氣</center>]]></content>
     
     <summary type="html">
     
@@ -45,9 +71,9 @@
     <link href="http://nichtsein.github.io/2021/10/23/%E9%BB%83%E6%98%8E%E5%BF%97-%E7%8E%BB%E7%92%83%E5%BF%83/"/>
     <id>http://nichtsein.github.io/2021/10/23/%E9%BB%83%E6%98%8E%E5%BF%97-%E7%8E%BB%E7%92%83%E5%BF%83/</id>
     <published>2021-10-23T07:56:37.000Z</published>
-    <updated>2021-10-23T12:38:58.488Z</updated>
+    <updated>2021-10-23T14:58:14.854Z</updated>
     
-    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/-Rp7UPbhErE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>前段時間在網絡聽到「<strong>黃明志</strong>」這個名字，此前未有聽聞。今日觀看『<strong>玻璃心</strong>』MV，對黃頓生好感，順帶關注了黃的<a href="https://t.me/nameweeofficial" target="_blank" rel="noopener">TG頻道</a>。感謝大陸官方對黃明志的封殺，讓我瞭解到這樣自由的靈魂。</p>]]></content>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/-Rp7UPbhErE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>前段時間在網絡聽到「<strong>黃明志</strong>」這個名字，此前未有聽聞。今日觀看『<strong>玻璃心</strong>』MV，對黃頓生好感，順帶關注了黃的<a href="https://t.me/nameweeofficial" target="_blank" rel="noopener">TG頻道</a>。感謝馬列黨對黃明志的封殺，讓我瞭解到這樣自由的靈魂。</p>]]></content>
     
     <summary type="html">
     
@@ -463,30 +489,6 @@
       
       
         &lt;p&gt;今日，訂閱一下新的newsletter。&lt;a href=&quot;http://greatist.com/newsletter&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Greatist&lt;/a&gt;、&lt;a href=&quot;http://sealfit.com/&quot; ta
-      
-    
-    </summary>
-    
-    
-      <category term="Newsletter" scheme="http://nichtsein.github.io/categories/Newsletter/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Can Radio Really Educate</title>
-    <link href="http://nichtsein.github.io/2021/09/20/Can%20Radio%20Really%20Educate/"/>
-    <id>http://nichtsein.github.io/2021/09/20/Can%20Radio%20Really%20Educate/</id>
-    <published>2021-09-20T04:35:17.000Z</published>
-    <updated>2021-09-20T06:19:44.455Z</updated>
-    
-    <content type="html"><![CDATA[<p>午時，讀文章 <a href="https://daily.jstor.org/can-radio-really-educate/?utm_term=Read%20More&amp;utm_campaign=jstordaily_09162021&amp;utm_content=email&amp;utm_source=Act-On+Software&amp;utm_medium=email" target="_blank" rel="noopener"><em>Can Radio Really Educate</em></a>。廣播在美國帶來的教育進步。文章中提到，數據時代的“遠程學習”理念在電磁波時代就已經出現了。有點幽默~</p><p>每次新科技的出現總會帶來一定的社會憂慮，也會受到負面評價，但把視角拉長來看，也阻止不了其應用。</p><p>現在的人很難想到，當年收音機在美國剛出現時，處理科技帶來新奇感之外，還有其他今天看來也熟悉十分的感受。雜誌編輯擔心人們越來越少人買雜誌；老師們擔心學生大腦成為其他聲音的跑馬場；音樂家擔心人們不再會去現場音樂會；教父們擔心如果佈道形式轉換為廣播的話，那麼教堂是不是就失去意義了。</p><p>種種擔心的形式在現在看來也是如此熟悉。家長擔心網絡遊戲毀了孩子；執政黨擔心遊戲會佔用孩子們讀紅寶書的時間；趙家人擔心孩子學英文、翻牆看外網會啟蒙他們的心智。</p><p>太陽底下沒有新鮮事，當下的時事熱事總會成為未來人的笑談。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;午時，讀文章 &lt;a href=&quot;https://daily.jstor.org/can-radio-really-educate/?utm_term=Read%20More&amp;amp;utm_campaign=jstordaily_09162021&amp;amp;utm_conte
       
     
     </summary>
