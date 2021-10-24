@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-10-23T17:38:28.190Z</updated>
+  <updated>2021-10-24T10:11:09.775Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -17,22 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>The Poor Laws</title>
+    <link href="http://nichtsein.github.io/2021/10/24/The-Law-Book-The-Poor-Laws/"/>
+    <id>http://nichtsein.github.io/2021/10/24/The-Law-Book-The-Poor-Laws/</id>
+    <published>2021-10-24T09:17:55.000Z</published>
+    <updated>2021-10-24T10:11:09.775Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://www.workhouses.org.uk/poorlaws/1834titlepage.jpg" alt="1834 Act Title Page (c) Peter Higginbotham" style="zoom:150%;" /></p><a id="more"></a><p>This chapter introduces the development of the Poor Laws in British. The Poor Laws  not only supported the poor but paved the way for the peace of society and the growth of the economy in British.</p><p>The Poor Laws were essential for a country. The poor, among those, include beggars and vagabonds, they are jobless and homeless. Beggars and vagabonds could undermine society and increase criminality. The Poor Laws helped this group to find jobs to earn wages and provided houses to them. However, the Poor Laws system was a double-edged sword. It had a problem in practice which was it encourages idleness, leading to the lack of laborers. For this situation British government had a solution, that was the rich should contribute to poor relief for the good of society, and the poor should be organized into the workhouses. The poor laws not only solved the problem of beggars and vagabonds but established a legal framework that paved the way for building a civilized society. </p><p>In some points, the Poor Laws shifted those who undermined the society to those who contributed to Industrial Revolution. </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://www.workhouses.org.uk/poorlaws/1834titlepage.jpg&quot; alt=&quot;1834 Act Title Page (c) Peter Higginbotham&quot; style=&quot;zoom:150%;&quot; /&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="The Law Book" scheme="http://nichtsein.github.io/categories/The-Law-Book/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>The Zen of Python</title>
     <link href="http://nichtsein.github.io/2021/10/23/python-%E4%BB%8A%E6%97%A5%E8%BF%9B%E5%BA%A6/"/>
     <id>http://nichtsein.github.io/2021/10/23/python-%E4%BB%8A%E6%97%A5%E8%BF%9B%E5%BA%A6/</id>
     <published>2021-10-23T15:50:58.000Z</published>
-    <updated>2021-10-23T17:38:28.190Z</updated>
+    <updated>2021-10-23T17:40:21.163Z</updated>
     
-    <content type="html"><![CDATA[<p>今日初次瞭解到對象概念。</p><p>讀《Python編程——從入門到實踐》，瞭解到 Tim Peters 對於 Python 的設計藝術。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">The Zen of Python, by Tim Peters</span><br><span class="line"></span><br><span class="line">Beautiful is better than ugly.</span><br><span class="line">Explicit is better than implicit.</span><br><span class="line">Simple is better than complex.</span><br><span class="line">Complex is better than complicated.</span><br><span class="line">Flat is better than nested.</span><br><span class="line">Sparse is better than dense.</span><br><span class="line">Readability counts.</span><br><span class="line">Special cases aren&#39;t special enough to break the rules.</span><br><span class="line">Although practicality beats purity.</span><br><span class="line">Errors should never pass silently.</span><br><span class="line">Unless explicitly silenced.</span><br><span class="line">In the face of ambiguity, refuse the temptation to guess.</span><br><span class="line">There should be one-- and preferably only one --obvious way to do it.</span><br><span class="line">Although that way may not be obvious at first unless you&#39;re Dutch.</span><br><span class="line">Now is better than never.</span><br><span class="line">Although never is often better than *right* now.</span><br><span class="line">If the implementation is hard to explain, it&#39;s a bad idea.</span><br><span class="line">If the implementation is easy to explain, it may be a good idea.</span><br><span class="line">Namespaces are one honking great idea -- let&#39;s do more of those!</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>今日初次瞭解到對象概念。</p><p>讀《Python編程——從入門到實踐》，瞭解到 Tim Peters 對於 Python 的設計藝術。</p><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">The Zen of Python, by Tim Peters</span><br><span class="line"></span><br><span class="line">Beautiful is better than ugly.</span><br><span class="line">Explicit is better than implicit.</span><br><span class="line">Simple is better than complex.</span><br><span class="line">Complex is better than complicated.</span><br><span class="line">Flat is better than nested.</span><br><span class="line">Sparse is better than dense.</span><br><span class="line">Readability counts.</span><br><span class="line">Special cases aren&#39;t special enough to break the rules.</span><br><span class="line">Although practicality beats purity.</span><br><span class="line">Errors should never pass silently.</span><br><span class="line">Unless explicitly silenced.</span><br><span class="line">In the face of ambiguity, refuse the temptation to guess.</span><br><span class="line">There should be one-- and preferably only one --obvious way to do it.</span><br><span class="line">Although that way may not be obvious at first unless you&#39;re Dutch.</span><br><span class="line">Now is better than never.</span><br><span class="line">Although never is often better than *right* now.</span><br><span class="line">If the implementation is hard to explain, it&#39;s a bad idea.</span><br><span class="line">If the implementation is easy to explain, it may be a good idea.</span><br><span class="line">Namespaces are one honking great idea -- let&#39;s do more of those!</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;今日初次瞭解到對象概念。&lt;/p&gt;
+      &lt;p&gt;今日初次瞭解到對象概念。&lt;/p&gt;
 &lt;p&gt;讀《Python編程——從入門到實踐》，瞭解到 Tim Peters 對於 Python 的設計藝術。&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
-      
     
     </summary>
     
@@ -471,30 +488,6 @@
     
     
       <category term="Deutsch" scheme="http://nichtsein.github.io/categories/Deutsch/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>訂閱新的 Newsletter</title>
-    <link href="http://nichtsein.github.io/2021/09/23/newsletter/"/>
-    <id>http://nichtsein.github.io/2021/09/23/newsletter/</id>
-    <published>2021-09-22T17:07:58.000Z</published>
-    <updated>2021-09-25T15:49:28.824Z</updated>
-    
-    <content type="html"><![CDATA[<p>今日，訂閱一下新的newsletter。<a href="http://greatist.com/newsletter" target="_blank" rel="noopener">Greatist</a>、<a href="http://sealfit.com/" target="_blank" rel="noopener">SealFit</a>、<a href="http://further.net/" target="_blank" rel="noopener">Further</a>、<a href="http://theheretic.org/" target="_blank" rel="noopener">Heretic</a>、<a href="http://chrisguillebeau.com/email-newsletter/" target="_blank" rel="noopener">The Art of Non-Conformity</a>、<a href="http://www.lifeedited.com/newsletter/" target="_blank" rel="noopener">Life Edited</a>、<a href="https://www.acciyo.com/below-the-fold" target="_blank" rel="noopener">Below the Fold</a>、<a href="https://www.rohitbhargava.com/subscribe" target="_blank" rel="noopener">Non-Obvious Insights</a>。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;今日，訂閱一下新的newsletter。&lt;a href=&quot;http://greatist.com/newsletter&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Greatist&lt;/a&gt;、&lt;a href=&quot;http://sealfit.com/&quot; ta
-      
-    
-    </summary>
-    
-    
-      <category term="Newsletter" scheme="http://nichtsein.github.io/categories/Newsletter/"/>
     
     
   </entry>
