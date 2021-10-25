@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-10-25T11:53:57.571Z</updated>
+  <updated>2021-10-25T11:55:54.018Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>if 语句</title>
+    <title>if 語句</title>
     <link href="http://nichtsein.github.io/2021/10/25/Python-IF%E8%AF%AD%E5%8F%A5/"/>
     <id>http://nichtsein.github.io/2021/10/25/Python-IF%E8%AF%AD%E5%8F%A5/</id>
     <published>2021-10-25T11:52:25.000Z</published>
-    <updated>2021-10-25T11:53:57.571Z</updated>
+    <updated>2021-10-25T11:55:54.018Z</updated>
     
-    <content type="html"><![CDATA[<p>今日學完了運算符部分，開始學習流程控制語句。If 語句、input 函數和 if-else 語句。</p>]]></content>
+    <content type="html"><![CDATA[<p>今日學完了運算符部分，條件運算符和運算符的優先級。開始學習流程控制語句。If 語句、input 函數和 if-else 語句。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;今日學完了運算符部分，開始學習流程控制語句。If 語句、input 函數和 if-else 語句。&lt;/p&gt;
+        &lt;p&gt;今日學完了運算符部分，條件運算符和運算符的優先級。開始學習流程控制語句。If 語句、input 函數和 if-else 語句。&lt;/p&gt;
 
       
     
