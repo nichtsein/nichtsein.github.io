@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-10-24T18:05:09.541Z</updated>
+  <updated>2021-10-25T11:53:57.571Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>if 语句</title>
+    <link href="http://nichtsein.github.io/2021/10/25/Python-IF%E8%AF%AD%E5%8F%A5/"/>
+    <id>http://nichtsein.github.io/2021/10/25/Python-IF%E8%AF%AD%E5%8F%A5/</id>
+    <published>2021-10-25T11:52:25.000Z</published>
+    <updated>2021-10-25T11:53:57.571Z</updated>
+    
+    <content type="html"><![CDATA[<p>今日學完了運算符部分，開始學習流程控制語句。If 語句、input 函數和 if-else 語句。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今日學完了運算符部分，開始學習流程控制語句。If 語句、input 函數和 if-else 語句。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://nichtsein.github.io/categories/Python/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>路過人間</title>
@@ -461,29 +486,6 @@
       
         &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/202110010250077.png&quot; alt=&quot;20210930192517&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;今天，在iPad上下載了&lt;strong st
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>元宇宙</title>
-    <link href="http://nichtsein.github.io/2021/09/30/%E5%85%83%E5%AE%87%E5%AE%99/"/>
-    <id>http://nichtsein.github.io/2021/09/30/%E5%85%83%E5%AE%87%E5%AE%99/</id>
-    <published>2021-09-30T15:18:45.000Z</published>
-    <updated>2021-09-30T18:49:39.149Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/202110010231324.jpg" alt="1001023059" /></p><p>今日，在『復旦就業』公眾號上看到<strong style="color:#c04851;">羅布樂思 Roblox</strong>的校園招聘推送。原本沒當回事，同其他的招聘一樣。無意中在這篇推送裡，看到了<strong style="color:#c04851;">元宇宙</strong>這個名詞。雖然沒聽說過，但也沒放在心上。直到刷微博看到<strong style="color:#c04851;">嚴鋒</strong>談到這個概念，這一下子引起我的好奇。嚴鋒在玩上的品味之高和對新奇事物的痴迷是有名的，連嚴老師都說他在鼓吹元宇宙。那就在一定程度上說明這個東西的重要性，今以記之，待日後瞭解。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/202110010231324.jpg&quot; alt=&quot;1001023059&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;今日，在『復旦就業』公眾號上看到&lt;strong st
       
     
     </summary>
