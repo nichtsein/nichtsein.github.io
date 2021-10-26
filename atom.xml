@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichtsein.github.io/"/>
-  <updated>2021-10-25T11:55:54.018Z</updated>
+  <updated>2021-10-26T10:58:31.296Z</updated>
   <id>http://nichtsein.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>黃明志之言</title>
+    <link href="http://nichtsein.github.io/2021/10/26/%E9%BB%83%E6%98%8E%E5%BF%97%E4%B9%8B%E8%A8%80/"/>
+    <id>http://nichtsein.github.io/2021/10/26/%E9%BB%83%E6%98%8E%E5%BF%97%E4%B9%8B%E8%A8%80/</id>
+    <published>2021-10-26T10:57:28.000Z</published>
+    <updated>2021-10-26T10:58:31.296Z</updated>
+    
+    <content type="html"><![CDATA[<img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/202110261857336.png" alt="20211026185627" style="zoom:150%;" /><center>黃明志今日在其TG頻道發言</center>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/202110261857336.png&quot; alt=&quot;20211026185627&quot; style=&quot;zoom:150%;&quot; /&gt;
+&lt;center&gt;黃明志今日
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>if 語句</title>
@@ -467,29 +490,6 @@
     
     
       <category term="Deutsch" scheme="http://nichtsein.github.io/categories/Deutsch/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Inoreader</title>
-    <link href="http://nichtsein.github.io/2021/09/30/RSS-Inoreader/"/>
-    <id>http://nichtsein.github.io/2021/09/30/RSS-Inoreader/</id>
-    <published>2021-09-30T15:19:03.000Z</published>
-    <updated>2021-09-30T18:57:16.387Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/202110010250077.png" alt="20210930192517" /></p><p>今天，在iPad上下載了<strong style="color:#c04851;">Inoreader</strong>，這一許久未用的RSS軟件。看到了那些熟悉且許久未點擊的訂閱源，上千條未閱讀的消息。在當下算法推薦信息流的時代，讓信息篩選的權力把握在自己手裡顯得尤為重要，拒絕做一個被算法投餵的人。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/nichtsein/images/wuimage/202110010250077.png&quot; alt=&quot;20210930192517&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;今天，在iPad上下載了&lt;strong st
-      
-    
-    </summary>
-    
     
     
   </entry>
